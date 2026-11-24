@@ -143,6 +143,7 @@ const Chrome = ({total, series, handle}) => {
 
 export const Video = ({scenes, series, music, handle}) => {
   const total = totalFrames(scenes);
+  const hasVoice = scenes.some((x) => x.voice);
   let start = 0;
   return (
     <AbsoluteFill style={{background: `radial-gradient(ellipse at 50% 35%, ${C.bg1} 0%, ${C.bg2} 75%)`}}>
@@ -152,13 +153,14 @@ export const Video = ({scenes, series, music, handle}) => {
         const el = (
           <Sequence key={i} from={start} durationInFrames={d}>
             <Comp s={s} />
+            {s.voice && <Audio src={staticFile(s.voice)} />}
           </Sequence>
         );
         start += d;
         return el;
       })}
       <Chrome total={total} series={series} handle={handle} />
-      {music && <Audio src={staticFile(music)} volume={(f) => interpolate(f, [0, 10, total - 30, total], [0, 0.5, 0.5, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} />}
+      {music && <Audio src={staticFile(music)} volume={(f) => interpolate(f, [0, 10, total - 30, total], [0, hasVoice ? 0.12 : 0.5, hasVoice ? 0.12 : 0.5, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} />}
     </AbsoluteFill>
   );
 };
