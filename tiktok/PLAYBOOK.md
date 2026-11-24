@@ -41,8 +41,19 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 ## Produção
 - Roteiros em `tiktok/semana-AAAA-MM-DD/videos.json` (cenas: hook, text, rows, big, steps, cta).
 - Render: `cd tiktok/engine && npm install && CHROME_PATH=<chrome-headless-shell> node render.mjs ../semana-AAAA-MM-DD [ids]`.
-- Commitar os MP4 e usar a URL jsDelivr com o hash do commit no Buffer.
+- Commitar os MP4 e usar a URL jsDelivr com o hash do commit no Buffer:
+  `https://cdn.jsdelivr.net/gh/ramislrodrigo-Insta/gps-midia@<sha>/tiktok/<semana>/videos/<id>.mp4`.
+  Se o Buffer responder "Video could not be read", usar
+  `https://raw.githubusercontent.com/ramislrodrigo-Insta/gps-midia/<sha>/tiktok/<semana>/videos/<id>.mp4`.
+- Chrome no ambiente: `/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell`
+  (fontes Google bloqueadas: o motor usa fontes embutidas em src/fonts.css).
+- Buffer: canal TikTok `6b0580eb8541f09ecb88e8bd`, org `6b057ec86fac996102352894`. Sempre `customScheduled` com `dueAt` em -03:00.
 - Conferir toda conta antes de publicar. Margem: preço = custo ÷ (1 - margem).
 
 ## Aprendizados
-- 2026-11-24: primeira semana (t01-t10). Sem dados ainda.
+- 2026-11-24: primeira leva (t01-t10, 25 a 29/11) programada. Sem dados ainda.
+
+## Histórico de temas (não repetir em menos de 3 semanas)
+- t01 4 partes do preço · t02 sobrou R$ 0 · t03 taxa da maquininha · t04 desconto R$ 10 = 83% do lucro
+- t05 Erro nº1 esquecer salário (bolo) · t06 Black Friday 30% off · t07 Método Tabela GPS 3 passos
+- t08 agenda cheia, conta vazia · t09 quanto vale sua hora · t10 Erro nº2 copiar o vizinho
