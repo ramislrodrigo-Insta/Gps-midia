@@ -17,3 +17,5 @@ O Rodrigo pode mandar um arquivo por episódio (`audio/ep02.mp3` …), gerado a 
 - Narração recebida (voz ElevenLabs "Jenifer") para os eps. 2 a 9: cortada em `audio/epNN-NN.mp3` (86 falas; cortes em `audio/cortes.json`, alinhados por transcrição).
 - ana-ep02 já renderizado com narração (modelo de como montar as cenas com `voice`). Publicar em 27/11.
 - Episódios narrados com voz sintética: publicar com `metadata.youtube.isAiGenerated: true`.
+- ana-ep01-narrado publicado em 24/11 (substitui o ep01 sem narração; o Rodrigo apaga o antigo no YouTube Studio).
+- Buffer exige `metadata.youtube.type: "short"` nos Shorts.
