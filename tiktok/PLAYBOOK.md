@@ -60,6 +60,7 @@ Os pilares (dor, educativo, ferramenta, série) se distribuem dentro dos nichos.
    (comentário pesa mais que curtida; nunca pedir curtida). Séries: "Segue pra não perder o nº X".
 
 ## Legenda
+- TODO vídeo pede para seguir: no CTA da tela ("…e segue pra mais contas") e na legenda ("Segue o perfil pra mais contas de preço."). Nunca escrever @metodo.tabelagps na legenda: o Buffer corta no ponto e marca o perfil errado (@metodo).
 - 1ª linha = o gancho. Depois 1-2 frases com a conta. Pergunta para comentar. "Valores de exemplo."
 - 3 a 5 hashtags específicas (#precificacao + nicho do vídeo).
 
