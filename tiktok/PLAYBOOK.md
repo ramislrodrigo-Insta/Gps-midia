@@ -8,6 +8,11 @@ Atualizar a seção "Aprendizados" toda semana com os números reais.
 - Subir para 3/dia (adicionar 07:30) só se a média de views das últimas 2 semanas se mantiver.
 - Buffer grátis: no máximo 10 posts na fila por vez. Manter ~4-5 dias programados.
 
+## YouTube Shorts
+- Canal YouTube "Rodrigo Ramis" no Buffer: `6b0589658541f09ecb8938ca`.
+- Os mesmos vídeos do TikTok viram Shorts às 12:09 e 20:09 (tarefa própria, mode shareNow, não ocupa a fila).
+- Na análise de segunda, incluir os números do canal YouTube (Buffer) e comparar com o TikTok.
+
 ## Pilares (mix semanal de 14 vídeos)
 | Pilar | Qtde | Horário preferido |
 |---|---|---|
