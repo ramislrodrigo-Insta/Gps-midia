@@ -214,7 +214,54 @@
   "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts",
   "published": false,
   "data": "2026-11-24",
-  "narrado": false
+  "narrado": false,
+  "aguardando_narracao": true,
+  "falas_narracao": [
+   [
+    "01",
+    "A Ana vendeu quarenta bolos no mês. E ganhou quatro reais e quarenta por hora."
+   ],
+   [
+    "02",
+    "Uma cliente chegou e perguntou quanto era o bolo de chocolate. A Ana fez a conta de sempre: ingredientes deram vinte reais, vezes três, sessenta reais! E a cliente fechou na hora."
+   ],
+   [
+    "03",
+    "Vendeu! Parecia um ótimo negócio."
+   ],
+   [
+    "04",
+    "Logo vieram mais pedidos. Quarenta bolos no mês, com o forno ligado o tempo todo."
+   ],
+   [
+    "05",
+    "No fim do mês, o extrato: dois mil e quatrocentos reais de vendas. Tirando ingredientes, embalagens, gás e luz, sobraram só oitocentos e oitenta reais."
+   ],
+   [
+    "06",
+    "Por duzentas horas de trabalho. Isso dá quatro reais e quarenta por hora."
+   ],
+   [
+    "07",
+    "E ela se perguntou: cadê o meu dinheiro?"
+   ],
+   [
+    "08",
+    "A conta que faltou: ingredientes, vinte reais. Embalagem, seis. Gás e luz, doze. E cinco horas do trabalho dela, a quinze reais a hora, setenta e cinco. O bolo custava cento e treze reais. Ela cobrava sessenta."
+   ],
+   [
+    "09",
+    "Com a conta certa e vinte por cento de lucro, o bolo foi para cento e quarenta e um reais. E a cliente comprou do mesmo jeito."
+   ],
+   [
+    "10",
+    "No mês seguinte, ela vendeu vinte bolos. Metade do trabalho, e sobraram dois mil e sessenta reais. Mais que o dobro."
+   ],
+   [
+    "11",
+    "E você, cobra como a Ana cobrava? Comenta sim ou não. E se inscreve pra ver o próximo episódio."
+   ]
+  ]
  },
  {
   "id": "ana-ep02",
