@@ -1,0 +1,108 @@
+[
+ {"id":"t01","dueAt":"2026-11-25T12:00:00-03:00","pilar":"educativo","formato":"conta animada","music":"trilha0.m4a",
+  "scenes":[
+   {"type":"hook","kicker":"todo preço certo tem","lines":["*4 partes.*","A maioria esquece _2._"],"dur":2.8},
+   {"type":"rows","title":"A conta do preço","sub":"exemplo: 1 serviço de 2 horas","rows":[{"label":"1. Material","value":"R$ 15"},{"label":"2. Sua hora (2h)","value":"R$ 50","tone":"y"},{"label":"3. Aluguel, luz, água","value":"R$ 16","tone":"y"}],"step":22,"dur":6},
+   {"type":"text","lines":["As partes *2* e *3*","são as que somem do preço.","Por isso sobra _R$ 0_ no fim do mês."],"dur":4.2},
+   {"type":"rows","title":"Agora a parte 4","rows":[{"label":"Custo total","value":"R$ 81"},{"label":"Preço com 20% de lucro","value":"R$ 101","tone":"good","total":true}],"step":20,"note":"Custo ÷ 0,8 = preço com 20% de lucro","dur":5.5},
+   {"type":"cta","top":"Qual dessas 4 partes você *esquece*?","keyword":"Comenta 1, 2, 3 ou 4","bottom":"Segue pra ver a conta do seu serviço","dur":3.5}
+  ],
+  "caption":"Todo preço tem 4 partes. A maioria esquece 2 delas.\n\nMaterial, sua hora, os custos fixos (aluguel, luz, água) e o lucro. Quem esquece a hora e os fixos trabalha o mês todo e não sobra nada.\n\nQual dessas partes você esquece? Comenta o número 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#precificacao #mei #empreendedorismo #salaodebeleza #confeitaria"},
+
+ {"id":"t02","dueAt":"2026-11-25T20:00:00-03:00","pilar":"dor","formato":"gancho de dor + virada","music":"trilha1.m4a",
+  "scenes":[
+   {"type":"hook","lines":["Trabalhou o mês","*inteiro*","e sobrou _R$ 0_?"],"dur":2.8},
+   {"type":"text","lines":["Agenda cheia.","Cliente toda hora.","Mas a conta não fecha."],"stagger":12,"dur":3.5},
+   {"type":"text","firstBig":true,"lines":["Não é falta de cliente.","É o *preço* que está errado."],"dur":3.4},
+   {"type":"rows","title":"Um atendimento","rows":[{"label":"Você cobra","value":"R$ 40"},{"label":"Custa de verdade","value":"R$ 38","tone":"bad"},{"label":"Sobra","value":"R$ 2","tone":"bad","total":true}],"step":18,"dur":5},
+   {"type":"big","pre":"8 atendimentos por dia","value":16,"prefix":"R$ ","tone":"bad","post":"é o que sobra de um dia inteiro de trabalho","dur":4},
+   {"type":"cta","top":"Você sabe quanto *sobra* de cada atendimento?","keyword":"SIM ou NÃO","bottom":"Comenta aqui 👇","dur":3.3}
+  ],
+  "caption":"Trabalhou o mês inteiro e sobrou R$ 0?\n\nNão é falta de cliente. Se cada atendimento custa R$ 38 e você cobra R$ 40, um dia cheio te deixa R$ 16.\n\nVocê sabe quanto sobra de cada atendimento? Comenta SIM ou NÃO 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#precificacao #gestaofinanceira #salaodebeleza #barbearia #empreendedorismo"},
+
+ {"id":"t03","dueAt":"2026-11-26T12:00:00-03:00","pilar":"educativo","formato":"erro escondido + fórmula","music":"trilha2.m4a",
+  "scenes":[
+   {"type":"hook","kicker":"a maquininha","lines":["está comendo","seu *lucro*","e você nem viu"],"dur":2.8},
+   {"type":"rows","title":"Venda de R$ 100","sub":"taxa de exemplo: 5%","rows":[{"label":"Cliente paga","value":"R$ 100"},{"label":"Maquininha fica","value":"- R$ 5","tone":"bad"},{"label":"Cai pra você","value":"R$ 95","total":true}],"step":18,"dur":5},
+   {"type":"text","lines":["Num mês de *R$ 6.000* no cartão,","são _R$ 300_ que somem."],"dur":3.6},
+   {"type":"text","firstBig":true,"lines":["O erro:","tentar compensar somando 5%.","*Não fecha.*"],"dur":3.6},
+   {"type":"rows","title":"A conta certa","rows":[{"label":"Quer receber","value":"R$ 100"},{"label":"100 ÷ 0,95","value":"R$ 105,26","tone":"good","total":true}],"step":20,"note":"Divide pelo que *sobra* da taxa, não soma.","dur":5.2},
+   {"type":"cta","top":"Qual a taxa da sua *maquininha*?","keyword":"Comenta a %","bottom":"Que eu te mostro o preço certo","dur":3.3}
+  ],
+  "caption":"A maquininha está comendo seu lucro e você nem viu.\n\nCom taxa de 5%, uma venda de R$ 100 vira R$ 95. Somar 5% no preço não resolve: o certo é dividir pelo que sobra da taxa (100 ÷ 0,95 = R$ 105,26).\n\nQual a taxa da sua maquininha? Comenta aqui 👇\n\nValores de exemplo. Confira as taxas do seu contrato.\n\n#precificacao #maquininha #mei #gestaofinanceira #empreendedorismo"},
+
+ {"id":"t04","dueAt":"2026-11-26T20:00:00-03:00","pilar":"dor","formato":"situação real + número chocante","music":"trilha0.m4a",
+  "scenes":[
+   {"type":"hook","lines":["\"Faz por *R$ 50*?\"","Esse desconto","custa _caro_."],"dur":2.8},
+   {"type":"rows","title":"Serviço de R$ 60","rows":[{"label":"Custo de verdade","value":"R$ 48"},{"label":"Seu lucro","value":"R$ 12","tone":"good","total":true}],"step":18,"dur":4},
+   {"type":"text","lines":["O cliente pede *R$ 10* de desconto.","Parece pouco, né?"],"dur":3.2},
+   {"type":"big","pre":"Você acabou de dar","value":83,"suffix":"%","tone":"bad","post":"do seu lucro.\nSobraram só R$ 2.","dur":4.3},
+   {"type":"text","firstBig":true,"lines":["Desconto sai do lucro,","não do preço."],"dur":3},
+   {"type":"cta","top":"Você dá desconto quando o cliente *pede*?","keyword":"Conta aqui","bottom":"Sem julgamento 😅","dur":3.2}
+  ],
+  "caption":"\"Faz por R$ 50?\" Esse desconto custa caro.\n\nNum serviço de R$ 60 com R$ 12 de lucro, dar R$ 10 de desconto é entregar 83% do seu lucro. Desconto sai do lucro, não do preço.\n\nVocê dá desconto quando o cliente pede? Conta aqui 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#precificacao #salaodebeleza #barbearia #confeitaria #empreendedorismo"},
+
+ {"id":"t05","dueAt":"2026-11-27T12:00:00-03:00","pilar":"serie","formato":"série numerada: Erro de preço nº 1","series":"Erro de preço nº 1","music":"trilha1.m4a",
+  "scenes":[
+   {"type":"hook","kicker":"erro de preço nº 1","lines":["Esquecer","o seu *salário*"],"dur":2.8},
+   {"type":"rows","title":"Bolo vendido a R$ 80","rows":[{"label":"Ingredientes","value":"R$ 35"},{"label":"Embalagem e gás","value":"R$ 10"},{"label":"\"Lucro\"","value":"R$ 35","tone":"good","total":true}],"step":18,"dur":5},
+   {"type":"text","lines":["Parece ótimo.","Mas esse bolo levou *4 horas*."],"stagger":14,"dur":3.2},
+   {"type":"rows","title":"Com a sua hora","sub":"exemplo: R$ 15 por hora","rows":[{"label":"Custos","value":"R$ 45"},{"label":"Seu trabalho (4h)","value":"R$ 60","tone":"y"},{"label":"Resultado","value":"- R$ 25","tone":"bad","total":true}],"step":18,"dur":5.4},
+   {"type":"text","firstBig":true,"lines":["Você não teve lucro.","Você *pagou* para trabalhar."],"dur":3.2},
+   {"type":"cta","top":"Amanhã: *erro nº 2*","keyword":"Segue","bottom":"pra não perder a série","dur":3}
+  ],
+  "caption":"Erro de preço nº 1: esquecer o seu salário.\n\nO bolo de R$ 80 parece dar R$ 35 de lucro. Mas levou 4 horas. Com a sua hora a R$ 15, o resultado é R$ 25 negativo.\n\nVocê coloca as suas horas no preço? 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #confeitariacaseira #mei #empreendedorismo"},
+
+ {"id":"t06","dueAt":"2026-11-27T20:00:00-03:00","pilar":"dor","formato":"tema do dia (Black Friday) + conta","music":"trilha2.m4a",
+  "scenes":[
+   {"type":"hook","kicker":"black friday","lines":["30% de desconto","pode te fazer","_pagar pra vender_"],"dur":2.8},
+   {"type":"rows","title":"Produto de R$ 100","rows":[{"label":"Custo","value":"R$ 75"},{"label":"Lucro normal","value":"R$ 25","tone":"good","total":true}],"step":18,"dur":4},
+   {"type":"rows","title":"Com 30% off","rows":[{"label":"Vende por","value":"R$ 70"},{"label":"Custo","value":"R$ 75"},{"label":"Cada venda","value":"- R$ 5","tone":"bad","total":true}],"step":18,"dur":5},
+   {"type":"text","firstBig":true,"lines":["E quanto mais vende,","*mais perde.*"],"dur":3},
+   {"type":"text","lines":["Antes de dar desconto,","veja seu *lucro*.","O desconto tem que caber nele."],"stagger":12,"dur":3.8},
+   {"type":"cta","top":"Vai entrar na Black Friday? Com *quantos %*?","keyword":"Comenta","bottom":"que eu te digo se cabe","dur":3.3}
+  ],
+  "caption":"Black Friday: 30% de desconto pode te fazer pagar pra vender.\n\nProduto de R$ 100 com custo de R$ 75. Com 30% off, cada venda dá R$ 5 de prejuízo. Quanto mais vende, mais perde.\n\nVai dar desconto hoje? Com quantos %? Comenta 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#blackfriday #precificacao #empreendedorismo #mei #pequenosnegocios"},
+
+ {"id":"t07","dueAt":"2026-11-28T12:00:00-03:00","pilar":"ferramenta","formato":"método em 3 passos","series":"Método Tabela GPS","music":"trilha0.m4a",
+  "scenes":[
+   {"type":"hook","kicker":"método tabela gps","lines":["O preço certo","em *3 passos*"],"dur":2.6},
+   {"type":"steps","title":"Os 3 passos","items":["Some seus *custos do mês* + o seu salário","Divida pelas *horas* que você trabalha","Multiplique pelas horas do serviço e some o *material*"],"step":26,"dur":7},
+   {"type":"rows","title":"Na prática","rows":[{"label":"Custos + salário","value":"R$ 4.000"},{"label":"÷ 160 horas","value":"R$ 25/h","tone":"y"},{"label":"Serviço de 2h + R$ 15","value":"R$ 65"}],"step":20,"dur":5.4},
+   {"type":"big","pre":"Com 20% de lucro, cobre","value":81,"prefix":"R$ ","tone":"good","post":"R$ 65 ÷ 0,8","dur":3.8},
+   {"type":"cta","top":"Quer que eu faça a conta do *seu* serviço?","keyword":"Comenta TABELA","bottom":"e diz o que você vende","dur":3.4}
+  ],
+  "caption":"Método Tabela GPS: o preço certo em 3 passos.\n\n1. Some seus custos do mês + o seu salário\n2. Divida pelas horas que você trabalha\n3. Multiplique pelas horas do serviço e some o material\n\nNo exemplo: R$ 4.000 ÷ 160h = R$ 25 a hora. Um serviço de 2h com R$ 15 de material custa R$ 65. Com 20% de lucro, R$ 81.\n\nComenta TABELA e diz o que você vende 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#precificacao #mei #salaodebeleza #confeitaria #barbearia"},
+
+ {"id":"t08","dueAt":"2026-11-28T20:00:00-03:00","pilar":"dor","formato":"contraste agenda cheia x conta vazia","music":"trilha1.m4a",
+  "scenes":[
+   {"type":"hook","lines":["Agenda *cheia*.","Conta _vazia_."],"size":140,"dur":2.6},
+   {"type":"text","lines":["Você atende de manhã até a noite.","Recusa cliente.","E mesmo assim o dinheiro *some*."],"stagger":12,"dur":4},
+   {"type":"rows","title":"Para onde vai","rows":[{"label":"Aluguel","value":"R$ 1.200"},{"label":"Produtos","value":"R$ 900"},{"label":"Luz, água, internet","value":"R$ 400"},{"label":"Maquininha","value":"R$ 300"}],"step":14,"dur":5},
+   {"type":"big","pre":"Seu preço só cobre","value":2800,"prefix":"R$ ","tone":"bad","post":"e o seu salário fica de fora","count":36,"dur":4},
+   {"type":"text","firstBig":true,"lines":["Mais cliente não resolve.","O *preço* resolve."],"dur":3},
+   {"type":"cta","top":"Você já se sentiu assim?","keyword":"Comenta EU","bottom":"","dur":3}
+  ],
+  "caption":"Agenda cheia. Conta vazia.\n\nAluguel, produto, luz, água, maquininha... Se o seu preço só cobre os custos, o seu salário fica de fora. Mais cliente não resolve. O preço resolve.\n\nJá se sentiu assim? Comenta EU 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#salaodebeleza #barbearia #precificacao #gestaofinanceira #mei"},
+
+ {"id":"t09","dueAt":"2026-11-29T12:00:00-03:00","pilar":"educativo","formato":"calcule junto","music":"trilha2.m4a",
+  "scenes":[
+   {"type":"hook","kicker":"faz essa conta comigo","lines":["Quanto vale","*1 hora*","do seu trabalho?"],"dur":2.8},
+   {"type":"rows","title":"Passo 1: o mês","rows":[{"label":"Quanto quer tirar","value":"R$ 3.000","tone":"y"},{"label":"Custos fixos","value":"R$ 1.000"},{"label":"Total","value":"R$ 4.000","total":true}],"step":18,"dur":5},
+   {"type":"rows","title":"Passo 2: as horas","rows":[{"label":"Dias trabalhados","value":"22"},{"label":"Horas que rendem por dia","value":"6"},{"label":"Horas no mês","value":"132","total":true}],"step":18,"note":"Conta só as horas *atendendo*, não as de arrumar e limpar.","dur":5.6},
+   {"type":"big","pre":"R$ 4.000 ÷ 132 horas","value":30.3,"dec":2,"prefix":"R$ ","tone":"good","post":"é o mínimo da sua hora","dur":4},
+   {"type":"cta","top":"Fez a conta? Quanto deu a *sua* hora?","keyword":"Comenta o valor","bottom":"Salva pra refazer todo mês","dur":3.4}
+  ],
+  "caption":"Quanto vale 1 hora do seu trabalho? Faz essa conta comigo.\n\n1. Quanto você quer tirar + custos fixos do mês\n2. Divide pelas horas que você realmente atende\n\nNo exemplo: R$ 4.000 ÷ 132h = R$ 30,30 por hora. Abaixo disso, você paga para trabalhar.\n\nQuanto deu a sua hora? Comenta 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#precificacao #mei #autonoma #gestaofinanceira #empreendedorismo"},
+
+ {"id":"t10","dueAt":"2026-11-29T20:00:00-03:00","pilar":"serie","formato":"série numerada: Erro de preço nº 2","series":"Erro de preço nº 2","music":"trilha0.m4a",
+  "scenes":[
+   {"type":"hook","kicker":"erro de preço nº 2","lines":["Copiar o preço","do *vizinho*"],"dur":2.6},
+   {"type":"rows","title":"Mesma escova: R$ 50","rows":[{"label":"Salão A: aluguel","value":"R$ 800"},{"label":"Salão B: aluguel","value":"R$ 2.500","tone":"bad"}],"step":18,"dur":4.2},
+   {"type":"rows","title":"200 atendimentos/mês","sub":"aluguel que cada atendimento carrega","rows":[{"label":"Salão A","value":"R$ 4","tone":"good"},{"label":"Salão B","value":"R$ 12,50","tone":"bad"}],"step":18,"dur":4.8},
+   {"type":"text","firstBig":true,"lines":["Mesmo preço.","Sobra *totalmente* diferente."],"dur":3},
+   {"type":"text","lines":["O seu vizinho não sabe a *sua* conta.","Às vezes, nem a dele."],"dur":3.4},
+   {"type":"cta","top":"Você já copiou preço de alguém?","keyword":"Conta aqui","bottom":"Segue pro erro nº 3","dur":3.2}
+  ],
+  "caption":"Erro de preço nº 2: copiar o preço do vizinho.\n\nDois salões cobram R$ 50 na escova. Um paga R$ 800 de aluguel, o outro R$ 2.500. Em 200 atendimentos, um carrega R$ 4 de aluguel por cliente, o outro R$ 12,50. Mesmo preço, sobra totalmente diferente.\n\nVocê já copiou preço de alguém? 👇\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#salaodebeleza #precificacao #gestaodesalao #barbearia #empreendedorismo"}
+]
