@@ -212,10 +212,10 @@
    }
   ],
   "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts",
-  "published": false,
+  "published": true,
   "data": "2026-11-24",
   "narrado": false,
-  "aguardando_narracao": true,
+  "aguardando_narracao": false,
   "falas_narracao": [
    [
     "01",
@@ -261,7 +261,8 @@
     "11",
     "E você, cobra como a Ana cobrava? Comenta sim ou não. E se inscreve pra ver o próximo episódio."
    ]
-  ]
+  ],
+  "buffer_post_id": "6b05f6c1e57cd4af41f201d1"
  },
  {
   "id": "ana-ep02",
