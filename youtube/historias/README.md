@@ -12,3 +12,8 @@ Sem áudio, a cena dura o tempo de leitura e o episódio sai só com balões e l
 
 ## Áudio vindo do ElevenLabs
 O Rodrigo pode mandar um arquivo por episódio (`audio/ep02.mp3` …), gerado a partir de `narracao-elevenlabs.txt`, com pausas de 1,5 s entre as falas. Corte nas pausas (ffmpeg silencedetect, silêncio ≥ 1 s) na ordem das falas do roteiro e salve como `audio/ep02-01.mp3` …; confira que o número de trechos bate com o número de falas antes de usar. Marque `isAiGenerated`/voz sintética na descrição se o YouTube exigir.
+
+## Status (24/11/2026)
+- Narração recebida (voz ElevenLabs "Jenifer") para os eps. 2 a 9: cortada em `audio/epNN-NN.mp3` (86 falas; cortes em `audio/cortes.json`, alinhados por transcrição).
+- ana-ep02 já renderizado com narração (modelo de como montar as cenas com `voice`). Publicar em 27/11.
+- Episódios narrados com voz sintética: publicar com `metadata.youtube.isAiGenerated: true`.

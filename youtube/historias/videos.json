@@ -211,6 +211,191 @@
     "dur": 4
    }
   ],
-  "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts"
+  "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts",
+  "published": false,
+  "data": "2026-11-24",
+  "narrado": false
+ },
+ {
+  "id": "ana-ep02",
+  "series": "Ana Confeiteira · Ep. 2",
+  "handle": " ",
+  "music": "trilha2.m4a",
+  "narrado": true,
+  "title": "Ela deu 30% de desconto na Black Friday e perdeu dinheiro em cada bolo #shorts",
+  "data": "2026-11-27",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "ana confeiteira · black friday",
+    "lines": [
+     "*30% de desconto*",
+     "e prejuízo",
+     "_em cada bolo_"
+    ],
+    "voice": "voz/ep02-01.mp3",
+    "dur": 7.32
+   },
+   {
+    "type": "reaction",
+    "who": "ana",
+    "mood": "happy",
+    "lines": [
+     "Lembra da Ana?",
+     "Custo do bolo: *R$ 113*. Preço: *R$ 141*."
+    ],
+    "voice": "voz/ep02-02.mp3",
+    "dur": 7.27
+   },
+   {
+    "type": "dialog",
+    "place": "confeitaria",
+    "left": "cliente",
+    "right": "ana",
+    "lines": [
+     {
+      "who": "cliente",
+      "text": "Vai ter promoção de *Black Friday*?",
+      "at": 2.8035
+     }
+    ],
+    "caption": "Todo mundo dando desconto...",
+    "voice": "voz/ep02-03.mp3",
+    "dur": 6.23
+   },
+   {
+    "type": "dialog",
+    "place": "confeitaria",
+    "left": "cliente",
+    "right": "ana",
+    "moods": {
+     "cliente": "happy"
+    },
+    "lines": [
+     {
+      "who": "ana",
+      "text": "30%, igual ao shopping!",
+      "think": true,
+      "at": 0.2
+     },
+     {
+      "who": "ana",
+      "text": "Fica *R$ 98,70*!",
+      "at": 4.488
+     }
+    ],
+    "voice": "voz/ep02-04.mp3",
+    "dur": 7.48
+   },
+   {
+    "type": "montage",
+    "label": "bolos em 3 dias",
+    "count": 15,
+    "notes": [
+     "Forno ligado *sem parar*"
+    ],
+    "caption": "Choveu pedido.",
+    "voice": "voz/ep02-05.mp3",
+    "dur": 5.73
+   },
+   {
+    "type": "rows",
+    "title": "Cada bolo",
+    "rows": [
+     {
+      "label": "Custo",
+      "value": "R$ 113"
+     },
+     {
+      "label": "Vendido a",
+      "value": "R$ 98,70"
+     },
+     {
+      "label": "Resultado",
+      "value": "- R$ 14,30",
+      "tone": "bad",
+      "total": true
+     }
+    ],
+    "step": 22,
+    "voice": "voz/ep02-06.mp3",
+    "dur": 7.64
+   },
+   {
+    "type": "big",
+    "pre": "15 bolos",
+    "value": 214.5,
+    "dec": 2,
+    "prefix": "−R$ ",
+    "tone": "bad",
+    "size": 190,
+    "post": "Quanto mais vendia, *mais perdia*.",
+    "voice": "voz/ep02-07.mp3",
+    "dur": 7.09
+   },
+   {
+    "type": "rows",
+    "title": "O limite do desconto",
+    "rows": [
+     {
+      "label": "Preço",
+      "value": "R$ 141"
+     },
+     {
+      "label": "Custo",
+      "value": "R$ 113"
+     },
+     {
+      "label": "Lucro = desconto máximo",
+      "value": "R$ 28",
+      "tone": "good",
+      "total": true
+     }
+    ],
+    "step": 22,
+    "note": "R$ 28 de R$ 141 = *quase 20%*. Passou disso, _é prejuízo_.",
+    "voice": "voz/ep02-08.mp3",
+    "dur": 8.92
+   },
+   {
+    "type": "dialog",
+    "place": "confeitaria",
+    "left": "cliente",
+    "right": "ana",
+    "moods": {
+     "cliente": "happy",
+     "ana": "happy"
+    },
+    "lines": [
+     {
+      "who": "ana",
+      "text": "Leva um *docinho de brinde*!",
+      "at": 2.5549999999999997
+     }
+    ],
+    "caption": "Brinde que custa *R$ 2* pra ela",
+    "voice": "voz/ep02-09.mp3",
+    "dur": 7.3
+   },
+   {
+    "type": "big",
+    "pre": "Lucro por bolo",
+    "value": 26,
+    "prefix": "R$ ",
+    "tone": "good",
+    "post": "e a cliente saiu feliz do mesmo jeito",
+    "voice": "voz/ep02-10.mp3",
+    "dur": 5.39
+   },
+   {
+    "type": "cta",
+    "top": "Você dá *desconto* ou *brinde*?",
+    "keyword": "Comenta",
+    "bottom": "e se inscreve pro ep. 3 da Ana",
+    "voice": "voz/ep02-11.mp3",
+    "dur": 6.8
+   }
+  ],
+  "description": "Na Black Friday, a Ana deu 30% de desconto. E cada bolo vendido tirou dinheiro do bolso dela.\n\nO bolo custava R$ 113 e saiu por R$ 98,70: R$ 14,30 de prejuízo em cada um. Em 15 bolos, R$ 214,50 a menos. O desconto tem que caber no lucro: com R$ 28 de lucro num bolo de R$ 141, o limite é quase 20%.\n\nNa promoção seguinte, ela trocou o desconto por um brinde de R$ 2 e manteve R$ 26 de lucro por bolo.\n\nVocê dá desconto ou brinde? Comenta aqui. Se inscreve pro próximo episódio.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #blackfriday #quantocobrar #shorts"
  }
 ]
