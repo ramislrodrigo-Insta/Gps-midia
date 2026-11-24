@@ -16,6 +16,32 @@ Atualizar a seção "Aprendizados" toda semana com os números reais.
 | Ferramenta / Método Tabela GPS | 2 | 12:00 |
 | Série numerada ("Erro de preço nº X") | 2 | alterna |
 
+## Mix de nichos (a partir da semana de 30/11) — confeitaria é prioridade
+| Nicho | % | Vídeos/semana (de 14) |
+|---|---|---|
+| Confeitaria | 50% | 7 |
+| Barbearia | 20% | 3 |
+| Salão de beleza | 15% | 2 |
+| Geral / MEI | 15% | 2 |
+Os pilares (dor, educativo, ferramenta, série) se distribuem dentro dos nichos. Revisar o % a cada 2 semanas pelos números.
+
+### Banco de temas — confeitaria (sinais de busca, nov/2026)
+- Bento cake: "o bolo que mais cresce em 2026" — quanto cobrar num bolo pequeno que dá o mesmo trabalho.
+- Bolo de pote: custo por unidade, margem, por que R$ 8 pode dar prejuízo.
+- Brigadeiro e doces "pelo cento": preço do cento x unidade, embalagem/forminha esquecida.
+- Bolo de andar / encomenda de festa: horas de trabalho, decoração, entrega.
+- Natal (até 24/12): panetone, chocotone, cesta de Natal, encomendas — "faça a conta antes de abrir encomenda".
+- iFood/delivery: embutir taxa do app e promoção que a confeiteira banca.
+- "Multiplicar por 3" (regra popular que falha) e "planilha/calculadora grátis" (demanda alta: muitos sites oferecem).
+- Gás, luz e forno: o custo invisível da confeitaria caseira.
+
+### Banco de temas — barbearia
+- "Quantos cortes para tirar um salário mínimo" (pauta viral em portais).
+- Comissão x aluguel de cadeira: qual sobra mais.
+- Barbeiro que cobra caro (casos virais) — preço é posicionamento, não só custo.
+- Combo corte + barba, assinatura/plano mensal: quando compensa.
+- Lâmina, produto, maquininha e tempo de cadeira por corte.
+
 ## Estrutura de cada vídeo (20-25 s)
 1. **Gancho (0-3 s)** — texto já visível no frame 0, no máximo 8 palavras.
    Usar uma destas mecânicas: número exato em R$ ("sobrou R$ 0?"), acusação/dor direta
@@ -52,6 +78,8 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 
 ## Aprendizados
 - 2026-11-24: primeira leva (t01-t10, 25 a 29/11) programada. Sem dados ainda.
+
+- 2026-11-24: Rodrigo definiu confeitaria como foco nº 1 ("produto da bola da vez"), com vídeos específicos também de barbearia.
 
 ## Histórico de temas (não repetir em menos de 3 semanas)
 - t01 4 partes do preço · t02 sobrou R$ 0 · t03 taxa da maquininha · t04 desconto R$ 10 = 83% do lucro
