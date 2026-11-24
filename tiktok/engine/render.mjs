@@ -10,7 +10,7 @@ const videos = JSON.parse(fs.readFileSync(path.join(week, 'videos.json'), 'utf8'
 const serveUrl = await bundle({entryPoint: path.join(here, 'src/index.jsx'), publicDir: path.join(here, 'public')});
 fs.mkdirSync(path.join(week, 'videos'), {recursive: true});
 for (const v of videos) {
-  const inputProps = {scenes: v.scenes, series: v.series, music: v.music};
+  const inputProps = {scenes: v.scenes, series: v.series, music: v.music, handle: v.handle};
   const composition = await selectComposition({serveUrl, id: 'Tiktok', inputProps, browserExecutable});
   const out = path.join(week, 'videos', `${v.id}.mp4`);
   await renderMedia({composition, serveUrl, codec: 'h264', outputLocation: out, inputProps, crf: 20, concurrency: 2, browserExecutable});

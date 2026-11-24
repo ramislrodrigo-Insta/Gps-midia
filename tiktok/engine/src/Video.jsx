@@ -126,7 +126,7 @@ const Cta = ({s}) => {
 
 const MAP = {hook: Hook, text: TextScene, rows: Rows, big: Big, steps: Steps, cta: Cta};
 
-const Chrome = ({total, series}) => {
+const Chrome = ({total, series, handle}) => {
   const f = useCurrentFrame();
   return (
     <>
@@ -135,12 +135,12 @@ const Chrome = ({total, series}) => {
         <div style={{border: `3px solid ${C.y}`, color: C.y, borderRadius: 40, padding: '8px 26px', fontFamily: INTER, fontWeight: 800, fontSize: 32}}>{series || 'GPS do Preço'}</div>
         <div style={{color: C.mute, fontFamily: INTER, fontWeight: 600, fontSize: 28}}>valores de exemplo</div>
       </div>
-      <div style={{position: 'absolute', bottom: 330, width: '100%', textAlign: 'center', color: 'rgba(255,255,255,0.45)', fontFamily: INTER, fontWeight: 700, fontSize: 30}}>@metodo.tabelagps</div>
+      <div style={{position: 'absolute', bottom: 330, width: '100%', textAlign: 'center', color: 'rgba(255,255,255,0.45)', fontFamily: INTER, fontWeight: 700, fontSize: 30}}>{handle || '@metodo.tabelagps'}</div>
     </>
   );
 };
 
-export const Video = ({scenes, series, music}) => {
+export const Video = ({scenes, series, music, handle}) => {
   const total = totalFrames(scenes);
   let start = 0;
   return (
@@ -156,7 +156,7 @@ export const Video = ({scenes, series, music}) => {
         start += d;
         return el;
       })}
-      <Chrome total={total} series={series} />
+      <Chrome total={total} series={series} handle={handle} />
       {music && <Audio src={staticFile(music)} volume={(f) => interpolate(f, [0, 10, total - 30, total], [0, 0.5, 0.5, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} />}
     </AbsoluteFill>
   );
