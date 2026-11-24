@@ -9,3 +9,6 @@ Para narrar: converta cada áudio para `tiktok/engine/public/voz/<codigo>.m4a` (
 Chromium do ambiente pode não tocar AAC — se falhar, use mp3 ou wav), monte uma cena por fala com
 `"voice": "voz/<codigo>.mp3"` e `dur` = duração do áudio + 0,4 s. A música cai para 12% de volume quando há voz.
 Sem áudio, a cena dura o tempo de leitura e o episódio sai só com balões e legendas.
+
+## Áudio vindo do ElevenLabs
+O Rodrigo pode mandar um arquivo por episódio (`audio/ep02.mp3` …), gerado a partir de `narracao-elevenlabs.txt`, com pausas de 1,5 s entre as falas. Corte nas pausas (ffmpeg silencedetect, silêncio ≥ 1 s) na ordem das falas do roteiro e salve como `audio/ep02-01.mp3` …; confira que o número de trechos bate com o número de falas antes de usar. Marque `isAiGenerated`/voz sintética na descrição se o YouTube exigir.
