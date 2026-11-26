@@ -1,0 +1,205 @@
+[
+ {
+  "id": "t11",
+  "dueAt": "2026-11-30T12:00:00-03:00",
+  "pilar": "educativo",
+  "nicho": "confeitaria",
+  "formato": "conta animada",
+  "music": "trilha1.m4a",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "bolo de pote",
+    "lines": [
+     "A R$ 8,",
+     "*dá lucro*?"
+    ],
+    "dur": 2.8
+   },
+   {
+    "type": "rows",
+    "title": "1 bolo de pote",
+    "sub": "valores de exemplo",
+    "rows": [
+     {
+      "label": "Ingredientes",
+      "value": "R$ 3,20"
+     },
+     {
+      "label": "Pote, colher e adesivo",
+      "value": "R$ 1,30"
+     },
+     {
+      "label": "Gás e luz",
+      "value": "R$ 0,50"
+     },
+     {
+      "label": "Custo",
+      "value": "R$ 5,00",
+      "total": true
+     }
+    ],
+    "step": 16,
+    "dur": 5
+   },
+   {
+    "type": "text",
+    "lines": [
+     "Sobram *R$ 3* por pote.",
+     "Parece bom, né?",
+     "Mas falta _você_ nessa conta."
+    ],
+    "stagger": 12,
+    "dur": 3.4
+   },
+   {
+    "type": "rows",
+    "title": "Com o seu tempo",
+    "sub": "20 potes em 3h · sua hora R$ 15",
+    "rows": [
+     {
+      "label": "Custo do pote",
+      "value": "R$ 5,00"
+     },
+     {
+      "label": "Seu trabalho",
+      "value": "R$ 2,25",
+      "tone": "y"
+     },
+     {
+      "label": "Sobra de verdade",
+      "value": "R$ 0,75",
+      "tone": "bad",
+      "total": true
+     }
+    ],
+    "step": 18,
+    "dur": 5
+   },
+   {
+    "type": "rows",
+    "title": "O preço certo",
+    "rows": [
+     {
+      "label": "Custo real",
+      "value": "R$ 7,25"
+     },
+     {
+      "label": "Com 30% de lucro",
+      "value": "R$ 10,36",
+      "tone": "good",
+      "total": true
+     }
+    ],
+    "step": 20,
+    "note": "7,25 ÷ 0,7 = preço com 30% de lucro",
+    "dur": 4.8
+   },
+   {
+    "type": "cta",
+    "top": "Quanto você cobra no *bolo de pote*?",
+    "keyword": "Comenta o seu preço",
+    "bottom": "Segue pra mais contas de confeitaria",
+    "dur": 3.3
+   }
+  ],
+  "caption": "Bolo de pote a R$ 8 dá lucro?\n\nIngredientes, pote e gás somam R$ 5. Parece que sobram R$ 3, mas 20 potes levam 3 horas: com a sua hora a R$ 15, sobram só R$ 0,75 por pote. Com 30% de lucro, o preço seria R$ 10,36.\n\nQuanto você cobra no bolo de pote? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #bolodepote #precificacao #confeitariacaseira #mei"
+ },
+ {
+  "id": "t12",
+  "dueAt": "2026-11-30T20:00:00-03:00",
+  "pilar": "dor",
+  "nicho": "confeitaria",
+  "formato": "gancho de dor + virada (data comercial: Natal)",
+  "music": "trilha2.m4a",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "encomendas de Natal",
+    "lines": [
+     "Vendeu *40 panetones*.",
+     "Sobrou _quanto_?"
+    ],
+    "dur": 2.8
+   },
+   {
+    "type": "rows",
+    "title": "1 panetone de 500 g",
+    "sub": "vendido a R$ 35",
+    "rows": [
+     {
+      "label": "Ingredientes",
+      "value": "R$ 14"
+     },
+     {
+      "label": "Forma, embalagem e laço",
+      "value": "R$ 6"
+     },
+     {
+      "label": "Gás e luz",
+      "value": "R$ 2"
+     },
+     {
+      "label": "\"Lucro\"",
+      "value": "R$ 13",
+      "tone": "good",
+      "total": true
+     }
+    ],
+    "step": 16,
+    "dur": 5
+   },
+   {
+    "type": "rows",
+    "title": "E as suas horas?",
+    "sub": "40 panetones = 30h · sua hora R$ 15",
+    "rows": [
+     {
+      "label": "\"Lucro\"",
+      "value": "R$ 13,00"
+     },
+     {
+      "label": "Seu trabalho (45 min)",
+      "value": "- R$ 11,25",
+      "tone": "y"
+     },
+     {
+      "label": "Sobra de verdade",
+      "value": "R$ 1,75",
+      "tone": "bad",
+      "total": true
+     }
+    ],
+    "step": 18,
+    "dur": 5.2
+   },
+   {
+    "type": "big",
+    "pre": "40 panetones",
+    "value": 70,
+    "prefix": "R$ ",
+    "tone": "bad",
+    "post": "de sobra por 30 horas de trabalho",
+    "dur": 4
+   },
+   {
+    "type": "text",
+    "lines": [
+     "Com 25% de lucro,",
+     "o preço seria *R$ 44,33*.",
+     "Faça a conta _antes_ da encomenda."
+    ],
+    "stagger": 12,
+    "dur": 3.4
+   },
+   {
+    "type": "cta",
+    "top": "Quanto você vai cobrar no *panetone*?",
+    "keyword": "Comenta o valor",
+    "bottom": "e segue pra mais contas de Natal",
+    "dur": 3.3
+   }
+  ],
+  "caption": "Vendeu 40 panetones. Sobrou quanto?\n\nPanetone de R$ 35 com R$ 22 de custo parece dar R$ 13. Mas cada um leva 45 minutos do seu trabalho: com a sua hora a R$ 15, sobram R$ 1,75. São R$ 70 por 30 horas. Com 25% de lucro, o preço seria R$ 44,33.\n\nQuanto você vai cobrar no panetone esse Natal? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #panetone #natal #precificacao #confeitariacaseira"
+ }
+]

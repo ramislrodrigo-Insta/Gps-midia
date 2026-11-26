@@ -33,16 +33,22 @@ const Pop = ({delay = 0, children, style}) => {
 
 const fmt = (n, dec = 0) => n.toLocaleString('pt-BR', {minimumFractionDigits: dec, maximumFractionDigits: dec});
 
+// Gancho: texto inteiro visível já no frame 0 (só um leve "punch" de escala, sem fade)
+const HookPop = ({children}) => {
+  const sp = useIn(0);
+  return <div style={{opacity: 1, transform: `scale(${1.06 - 0.06 * sp})`}}>{children}</div>;
+};
+
 const Hook = ({s}) => {
   const f = useCurrentFrame();
   const shake = f < 8 ? Math.sin(f * 2.2) * (8 - f) * 1.5 : 0;
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: '0 80px'}}>
-      {s.kicker && <Pop><div style={{fontFamily: INTER, fontWeight: 800, color: C.y, fontSize: 44, letterSpacing: 2, textTransform: 'uppercase', marginBottom: 30, textAlign: 'center'}}>{s.kicker}</div></Pop>}
+      {s.kicker && <HookPop><div style={{fontFamily: INTER, fontWeight: 800, color: C.y, fontSize: 44, letterSpacing: 2, textTransform: 'uppercase', marginBottom: 30, textAlign: 'center'}}>{s.kicker}</div></HookPop>}
       {s.lines.map((l, i) => (
-        <Pop key={i} delay={i * 6}>
+        <HookPop key={i}>
           <div style={{fontFamily: ANTON, color: C.w, fontSize: s.size || 118, lineHeight: 1.08, textAlign: 'center', textTransform: 'uppercase', transform: `translateX(${shake}px)`}}><Rich text={l} /></div>
-        </Pop>
+        </HookPop>
       ))}
       {s.sub && <Pop delay={s.lines.length * 6 + 6}><div style={{fontFamily: INTER, fontWeight: 700, color: C.mute, fontSize: 46, marginTop: 40, textAlign: 'center'}}><Rich text={s.sub} /></div></Pop>}
     </AbsoluteFill>

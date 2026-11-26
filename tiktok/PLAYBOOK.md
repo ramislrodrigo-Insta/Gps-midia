@@ -87,7 +87,10 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 
 - 2026-11-24: Rodrigo definiu confeitaria como foco nº 1 ("produto da bola da vez"), com vídeos específicos também de barbearia.
 
+- 2026-11-25: motor corrigido: o gancho agora aparece inteiro no frame 0 (antes entrava com fade de ~3-6 frames; t01-t10 saíram assim). Vale a partir do t11.
+
 ## Histórico de temas (não repetir em menos de 3 semanas)
 - t01 4 partes do preço · t02 sobrou R$ 0 · t03 taxa da maquininha · t04 desconto R$ 10 = 83% do lucro
 - t05 Erro nº1 esquecer salário (bolo) · t06 Black Friday 30% off · t07 Método Tabela GPS 3 passos
 - t08 agenda cheia, conta vazia · t09 quanto vale sua hora · t10 Erro nº2 copiar o vizinho
+- t11 bolo de pote a R$ 8 (confeitaria, educativo) · t12 40 panetones, sobrou quanto? (confeitaria, dor, Natal)
