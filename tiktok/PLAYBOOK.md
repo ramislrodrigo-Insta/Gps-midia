@@ -21,13 +21,14 @@ Atualizar a seção "Aprendizados" toda semana com os números reais.
 | Ferramenta / Método Tabela GPS | 2 | 12:00 |
 | Série numerada ("Erro de preço nº X") | 2 | alterna |
 
-## Mix de nichos (a partir da semana de 30/11) — confeitaria é prioridade
-| Nicho | % | Vídeos/semana (de 14) |
-|---|---|---|
-| Confeitaria | 50% | 7 |
-| Barbearia | 20% | 3 |
-| Salão de beleza | 15% | 2 |
-| Geral / MEI | 15% | 2 |
+## Mix de nichos (definido pelo Rodrigo em 26/11) — confeitaria em foco, variando com pequenos negócios
+| Nicho | Vídeos/semana (de 21) |
+|---|---|
+| Confeitaria (foco; novelinha e venda sempre aqui) | 9 |
+| Barbearia | 3 |
+| Salão de beleza | 3 |
+| Produtos / revenda | 3 |
+| Pequenos negócios em geral / MEI | 3 |
 Os pilares (dor, educativo, ferramenta, série) se distribuem dentro dos nichos. Revisar o % a cada 2 semanas pelos números.
 
 ### Banco de temas — confeitaria (sinais de busca, nov/2026)
