@@ -1,0 +1,762 @@
+[
+ {
+  "id": "p01",
+  "pilar": "educativo",
+  "nicho": "confeitaria",
+  "formato": "pote em camadas + narração Rr",
+  "music": "trilha1.m4a",
+  "scenes": [
+   {
+    "type": "jar",
+    "static": true,
+    "title": "Bolo de pote a *R$ 8* dá lucro?",
+    "max": 11,
+    "price": {
+     "value": 8,
+     "label": "preço"
+    },
+    "layers": [],
+    "say": "Bolo de pote a oito reais dá lucro? Vamos encher esse pote e descobrir.",
+    "dur": 5.44,
+    "voice": "voz/p01-01.mp3",
+    "words": [
+     {
+      "w": "Bolo",
+      "s": 0.0,
+      "e": 0.302
+     },
+     {
+      "w": "de",
+      "s": 0.348,
+      "e": 0.418
+     },
+     {
+      "w": "pote",
+      "s": 0.488,
+      "e": 0.836
+     },
+     {
+      "w": "a",
+      "s": 0.882,
+      "e": 0.906
+     },
+     {
+      "w": "oito",
+      "s": 0.998,
+      "e": 1.265
+     },
+     {
+      "w": "reais",
+      "s": 1.335,
+      "e": 1.904
+     },
+     {
+      "w": "dá",
+      "s": 2.113,
+      "e": 2.218
+     },
+     {
+      "w": "lucro?",
+      "s": 2.276,
+      "e": 2.763
+     },
+     {
+      "w": "Vamos",
+      "s": 3.042,
+      "e": 3.262
+     },
+     {
+      "w": "encher",
+      "s": 3.344,
+      "e": 3.553
+     },
+     {
+      "w": "esse",
+      "s": 3.576,
+      "e": 3.715
+     },
+     {
+      "w": "pote",
+      "s": 3.773,
+      "e": 3.994
+     },
+     {
+      "w": "e",
+      "s": 4.029,
+      "e": 4.052
+     },
+     {
+      "w": "descobrir.",
+      "s": 4.11,
+      "e": 5.062
+     }
+    ]
+   },
+   {
+    "type": "jar",
+    "title": "O que tem no pote",
+    "max": 11,
+    "price": {
+     "value": 8,
+     "label": "preço"
+    },
+    "layers": [
+     {
+      "label": "Ingredientes",
+      "value": 3.2,
+      "kind": "ing",
+      "cue": "ingrediente",
+      "at": 1.057
+     },
+     {
+      "label": "Pote, colher, adesivo",
+      "value": 1.3,
+      "kind": "emb",
+      "cue": "embalagem",
+      "at": 2.416
+     },
+     {
+      "label": "Gás e luz",
+      "value": 0.5,
+      "kind": "gas",
+      "cue": "gás",
+      "at": 6.177
+     }
+    ],
+    "say": "Três reais e vinte de ingrediente. Um e trinta de embalagem, com pote, colher e adesivo. E cinquenta centavos de gás e luz.",
+    "dur": 7.59,
+    "voice": "voz/p01-02.mp3",
+    "words": [
+     {
+      "w": "Três",
+      "s": 0.0,
+      "e": 0.313
+     },
+     {
+      "w": "reais",
+      "s": 0.383,
+      "e": 0.685
+     },
+     {
+      "w": "e",
+      "s": 0.743,
+      "e": 0.778
+     },
+     {
+      "w": "vinte",
+      "s": 0.824,
+      "e": 1.103
+     },
+     {
+      "w": "de",
+      "s": 1.138,
+      "e": 1.184
+     },
+     {
+      "w": "ingrediente.",
+      "s": 1.207,
+      "e": 1.846
+     },
+     {
+      "w": "Um",
+      "s": 1.892,
+      "e": 2.032
+     },
+     {
+      "w": "e",
+      "s": 2.101,
+      "e": 2.125
+     },
+     {
+      "w": "trinta",
+      "s": 2.171,
+      "e": 2.45
+     },
+     {
+      "w": "de",
+      "s": 2.485,
+      "e": 2.543
+     },
+     {
+      "w": "embalagem,",
+      "s": 2.566,
+      "e": 3.193
+     },
+     {
+      "w": "com",
+      "s": 3.228,
+      "e": 3.355
+     },
+     {
+      "w": "pote,",
+      "s": 3.413,
+      "e": 3.738
+     },
+     {
+      "w": "colher",
+      "s": 3.762,
+      "e": 4.156
+     },
+     {
+      "w": "e",
+      "s": 4.203,
+      "e": 4.226
+     },
+     {
+      "w": "adesivo.",
+      "s": 4.261,
+      "e": 4.772
+     },
+     {
+      "w": "E",
+      "s": 4.818,
+      "e": 4.853
+     },
+     {
+      "w": "cinquenta",
+      "s": 4.934,
+      "e": 5.666
+     },
+     {
+      "w": "centavos",
+      "s": 5.7,
+      "e": 6.188
+     },
+     {
+      "w": "de",
+      "s": 6.211,
+      "e": 6.269
+     },
+     {
+      "w": "gás",
+      "s": 6.327,
+      "e": 6.536
+     },
+     {
+      "w": "e",
+      "s": 6.594,
+      "e": 6.618
+     },
+     {
+      "w": "luz.",
+      "s": 6.653,
+      "e": 7.198
+     }
+    ]
+   },
+   {
+    "type": "jar",
+    "title": "Sobram *R$ 3*?",
+    "max": 11,
+    "price": {
+     "value": 8,
+     "label": "preço"
+    },
+    "layers": [
+     {
+      "label": "Ingredientes",
+      "value": 3.2,
+      "kind": "ing"
+     },
+     {
+      "label": "Pote, colher, adesivo",
+      "value": 1.3,
+      "kind": "emb"
+     },
+     {
+      "label": "Gás e luz",
+      "value": 0.5,
+      "kind": "gas"
+     }
+    ],
+    "gap": {
+     "cue": "sobram",
+     "label": "sobra",
+     "tone": "y",
+     "at": 0
+    },
+    "say": "Sobram três reais por pote. Parece bom, né? Mas falta uma coisa nessa conta: você.",
+    "dur": 5.39,
+    "voice": "voz/p01-03.mp3",
+    "words": [
+     {
+      "w": "Sobram",
+      "s": 0.0,
+      "e": 0.383
+     },
+     {
+      "w": "três",
+      "s": 0.43,
+      "e": 0.662
+     },
+     {
+      "w": "reais",
+      "s": 0.72,
+      "e": 0.917
+     },
+     {
+      "w": "por",
+      "s": 0.964,
+      "e": 1.068
+     },
+     {
+      "w": "pote.",
+      "s": 1.115,
+      "e": 1.428
+     },
+     {
+      "w": "Parece",
+      "s": 1.474,
+      "e": 1.753
+     },
+     {
+      "w": "bom,",
+      "s": 1.8,
+      "e": 1.997
+     },
+     {
+      "w": "né?",
+      "s": 2.02,
+      "e": 2.206
+     },
+     {
+      "w": "Mas",
+      "s": 2.322,
+      "e": 2.601
+     },
+     {
+      "w": "falta",
+      "s": 2.67,
+      "e": 2.868
+     },
+     {
+      "w": "uma",
+      "s": 2.891,
+      "e": 3.03
+     },
+     {
+      "w": "coisa",
+      "s": 3.065,
+      "e": 3.262
+     },
+     {
+      "w": "nessa",
+      "s": 3.309,
+      "e": 3.495
+     },
+     {
+      "w": "conta:",
+      "s": 3.529,
+      "e": 3.901
+     },
+     {
+      "w": "você.",
+      "s": 4.075,
+      "e": 5.016
+     }
+    ]
+   },
+   {
+    "type": "jar",
+    "title": "Agora, *o seu tempo*",
+    "max": 11,
+    "price": {
+     "value": 8,
+     "label": "preço"
+    },
+    "layers": [
+     {
+      "label": "Ingredientes",
+      "value": 3.2,
+      "kind": "ing"
+     },
+     {
+      "label": "Pote, colher, adesivo",
+      "value": 1.3,
+      "kind": "emb"
+     },
+     {
+      "label": "Gás e luz",
+      "value": 0.5,
+      "kind": "gas"
+     },
+     {
+      "label": "Seu trabalho",
+      "value": 2.25,
+      "kind": "hora",
+      "cue": "dois",
+      "at": 4.448
+     }
+    ],
+    "gap": {
+     "label": "sobra",
+     "tone": "bad"
+    },
+    "say": "Vinte potes levam três horas. Com a sua hora a quinze reais, são dois e vinte e cinco por pote. Sobram só setenta e cinco centavos.",
+    "dur": 8.66,
+    "voice": "voz/p01-04.mp3",
+    "words": [
+     {
+      "w": "Vinte",
+      "s": 0.0,
+      "e": 0.464
+     },
+     {
+      "w": "potes",
+      "s": 0.534,
+      "e": 1.057
+     },
+     {
+      "w": "levam",
+      "s": 1.265,
+      "e": 1.66
+     },
+     {
+      "w": "três",
+      "s": 1.741,
+      "e": 2.032
+     },
+     {
+      "w": "horas.",
+      "s": 2.113,
+      "e": 2.508
+     },
+     {
+      "w": "Com",
+      "s": 2.543,
+      "e": 2.612
+     },
+     {
+      "w": "a",
+      "s": 2.659,
+      "e": 2.682
+     },
+     {
+      "w": "sua",
+      "s": 2.728,
+      "e": 2.926
+     },
+     {
+      "w": "hora",
+      "s": 2.984,
+      "e": 3.17
+     },
+     {
+      "w": "a",
+      "s": 3.193,
+      "e": 3.228
+     },
+     {
+      "w": "quinze",
+      "s": 3.344,
+      "e": 3.669
+     },
+     {
+      "w": "reais,",
+      "s": 3.727,
+      "e": 4.203
+     },
+     {
+      "w": "são",
+      "s": 4.261,
+      "e": 4.54
+     },
+     {
+      "w": "dois",
+      "s": 4.598,
+      "e": 4.923
+     },
+     {
+      "w": "e",
+      "s": 4.981,
+      "e": 5.004
+     },
+     {
+      "w": "vinte",
+      "s": 5.05,
+      "e": 5.294
+     },
+     {
+      "w": "e",
+      "s": 5.317,
+      "e": 5.341
+     },
+     {
+      "w": "cinco",
+      "s": 5.375,
+      "e": 5.631
+     },
+     {
+      "w": "por",
+      "s": 5.677,
+      "e": 5.793
+     },
+     {
+      "w": "pote.",
+      "s": 5.851,
+      "e": 6.177
+     },
+     {
+      "w": "Sobram",
+      "s": 6.269,
+      "e": 6.653
+     },
+     {
+      "w": "só",
+      "s": 6.711,
+      "e": 6.873
+     },
+     {
+      "w": "setenta",
+      "s": 6.931,
+      "e": 7.326
+     },
+     {
+      "w": "e",
+      "s": 7.349,
+      "e": 7.372
+     },
+     {
+      "w": "cinco",
+      "s": 7.407,
+      "e": 7.639
+     },
+     {
+      "w": "centavos.",
+      "s": 7.674,
+      "e": 8.266
+     }
+    ]
+   },
+   {
+    "type": "jar",
+    "title": "O preço *certo*",
+    "max": 11,
+    "price": {
+     "value": 10.36,
+     "from": 8,
+     "label": "preço certo",
+     "cue": "dez",
+     "at": 2.276
+    },
+    "layers": [
+     {
+      "label": "Ingredientes",
+      "value": 3.2,
+      "kind": "ing"
+     },
+     {
+      "label": "Pote, colher, adesivo",
+      "value": 1.3,
+      "kind": "emb"
+     },
+     {
+      "label": "Gás e luz",
+      "value": 0.5,
+      "kind": "gas"
+     },
+     {
+      "label": "Seu trabalho",
+      "value": 2.25,
+      "kind": "hora"
+     },
+     {
+      "label": "Lucro (30%)",
+      "value": 3.11,
+      "kind": "lucro",
+      "cue": "dez",
+      "at": 2.276
+     }
+    ],
+    "say": "Pra ter trinta por cento de lucro, o preço certo é dez reais e trinta e seis.",
+    "dur": 5.08,
+    "voice": "voz/p01-05.mp3",
+    "words": [
+     {
+      "w": "Pra",
+      "s": 0.0,
+      "e": 0.174
+     },
+     {
+      "w": "ter",
+      "s": 0.221,
+      "e": 0.36
+     },
+     {
+      "w": "trinta",
+      "s": 0.43,
+      "e": 0.697
+     },
+     {
+      "w": "por",
+      "s": 0.731,
+      "e": 0.836
+     },
+     {
+      "w": "cento",
+      "s": 0.859,
+      "e": 1.091
+     },
+     {
+      "w": "de",
+      "s": 1.138,
+      "e": 1.207
+     },
+     {
+      "w": "lucro,",
+      "s": 1.254,
+      "e": 1.591
+     },
+     {
+      "w": "o",
+      "s": 1.649,
+      "e": 1.683
+     },
+     {
+      "w": "preço",
+      "s": 1.73,
+      "e": 2.009
+     },
+     {
+      "w": "certo",
+      "s": 2.043,
+      "e": 2.322
+     },
+     {
+      "w": "é",
+      "s": 2.345,
+      "e": 2.368
+     },
+     {
+      "w": "dez",
+      "s": 2.426,
+      "e": 2.659
+     },
+     {
+      "w": "reais",
+      "s": 2.74,
+      "e": 3.111
+     },
+     {
+      "w": "e",
+      "s": 3.17,
+      "e": 3.204
+     },
+     {
+      "w": "trinta",
+      "s": 3.262,
+      "e": 3.541
+     },
+     {
+      "w": "e",
+      "s": 3.576,
+      "e": 3.599
+     },
+     {
+      "w": "seis.",
+      "s": 3.657,
+      "e": 4.69
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "top": "Quanto você cobra no *bolo de pote*?",
+    "keyword": "Comenta o seu preço",
+    "bottom": "e segue pra mais contas",
+    "say": "Quanto você cobra no seu bolo de pote? Comenta aí, e segue pra mais contas de preço.",
+    "dur": 5.29,
+    "voice": "voz/p01-06.mp3",
+    "words": [
+     {
+      "w": "Quanto",
+      "s": 0.0,
+      "e": 0.302
+     },
+     {
+      "w": "você",
+      "s": 0.337,
+      "e": 0.534
+     },
+     {
+      "w": "cobra",
+      "s": 0.615,
+      "e": 0.952
+     },
+     {
+      "w": "no",
+      "s": 0.987,
+      "e": 1.033
+     },
+     {
+      "w": "seu",
+      "s": 1.068,
+      "e": 1.173
+     },
+     {
+      "w": "bolo",
+      "s": 1.219,
+      "e": 1.416
+     },
+     {
+      "w": "de",
+      "s": 1.451,
+      "e": 1.521
+     },
+     {
+      "w": "pote?",
+      "s": 1.567,
+      "e": 1.916
+     },
+     {
+      "w": "Comenta",
+      "s": 1.974,
+      "e": 2.368
+     },
+     {
+      "w": "aí,",
+      "s": 2.403,
+      "e": 2.647
+     },
+     {
+      "w": "e",
+      "s": 2.67,
+      "e": 2.705
+     },
+     {
+      "w": "segue",
+      "s": 2.775,
+      "e": 3.03
+     },
+     {
+      "w": "pra",
+      "s": 3.065,
+      "e": 3.181
+     },
+     {
+      "w": "mais",
+      "s": 3.216,
+      "e": 3.379
+     },
+     {
+      "w": "contas",
+      "s": 3.437,
+      "e": 3.727
+     },
+     {
+      "w": "de",
+      "s": 3.75,
+      "e": 3.808
+     },
+     {
+      "w": "preço.",
+      "s": 3.855,
+      "e": 4.458
+     }
+    ]
+   }
+  ],
+  "caption": "Bolo de pote a R$ 8 dá lucro?\n\nIngredientes, pote e gás somam R$ 5. Parece que sobram R$ 3, mas 20 potes levam 3 horas: com a sua hora a R$ 15, sobram só R$ 0,75 por pote. Com 30% de lucro, o preço certo é R$ 10,36.\n\nQuanto você cobra no bolo de pote? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #bolodepote #precificacao #confeitariacaseira #mei",
+  "narrado": true
+ }
+]

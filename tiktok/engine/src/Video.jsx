@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig, interpolate, spring, Audio, staticFile} from 'remotion';
 import './fonts.css';
 import {Dialog, Montage, Statement, Reaction} from './Story.jsx';
+import {Jar, Captions} from './Visual.jsx';
 const ANTON = 'AntonLocal';
 const INTER = 'InterLocal';
 
@@ -131,7 +132,7 @@ const Cta = ({s}) => {
   );
 };
 
-const MAP = {hook: Hook, text: TextScene, rows: Rows, big: Big, steps: Steps, cta: Cta, dialog: Dialog, montage: Montage, statement: Statement, reaction: Reaction};
+const MAP = {hook: Hook, text: TextScene, rows: Rows, big: Big, steps: Steps, cta: Cta, dialog: Dialog, montage: Montage, statement: Statement, reaction: Reaction, jar: Jar};
 
 const Chrome = ({total, series, handle}) => {
   const f = useCurrentFrame();
@@ -160,6 +161,7 @@ export const Video = ({scenes, series, music, handle}) => {
           <Sequence key={i} from={start} durationInFrames={d}>
             <Comp s={s} />
             {s.voice && <Audio src={staticFile(s.voice)} />}
+            {s.words && <Captions words={s.words} />}
           </Sequence>
         );
         start += d;
