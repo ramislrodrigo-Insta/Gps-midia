@@ -6,7 +6,7 @@ Atualizar a seção "Aprendizados" toda semana com os números reais.
 ## Cadência
 - 2 vídeos por dia, 12:00 e 20:00 (horário de Brasília, -03:00).
 - Subir para 3/dia (adicionar 07:30) só se a média de views das últimas 2 semanas se mantiver.
-- Buffer grátis: no máximo 10 posts na fila por vez. Manter ~4-5 dias programados.
+- Buffer pago desde 26/11/2026: sem o limite de 10 posts na fila. Manter ~5 dias programados (horizonte da rotina diária).
 
 ## YouTube Shorts
 - Canal YouTube "Rodrigo Ramis" no Buffer: `6b0589658541f09ecb8938ca`.
@@ -87,6 +87,7 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 
 - 2026-11-24: Rodrigo definiu confeitaria como foco nº 1 ("produto da bola da vez"), com vídeos específicos também de barbearia.
 
+- 2026-11-26: Rodrigo assinou o Buffer pago; acabou o limite de 10 agendados.
 - 2026-11-25: motor corrigido: o gancho agora aparece inteiro no frame 0 (antes entrava com fade de ~3-6 frames; t01-t10 saíram assim). Vale a partir do t11.
 
 ## Histórico de temas (não repetir em menos de 3 semanas)
