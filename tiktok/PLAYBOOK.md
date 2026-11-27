@@ -100,6 +100,8 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 
 - 2026-11-27: Rodrigo aprovou narração como padrão (TikTok e Reels) depois do piloto p01. Comparar views/retenção narrado x sem narração nas próximas análises.
 
+- 2026-11-27 (YouTube): Ana Confeiteira vs Shorts comuns (Buffer, 27/11 17h45). Ep1 sem narração 48 views (2 curtidas); ep1 narrado 37 views; Shorts comuns de 25-26/11: 22, 11, 12, 12 (média ~14). Episódios têm ~3x as views, mas com 1 dia a mais no ar e amostra mínima; ainda sem comentários. Narração não superou a versão muda no ep1 (pode ser canibalização do mesmo tema). Ep2 (narrado) publicado 27/11 17h42. Rever na próxima sexta.
+
 ## Histórico de temas (não repetir em menos de 3 semanas)
 - t01 4 partes do preço · t02 sobrou R$ 0 · t03 taxa da maquininha · t04 desconto R$ 10 = 83% do lucro
 - t05 Erro nº1 esquecer salário (bolo) · t06 Black Friday 30% off · t07 Método Tabela GPS 3 passos
