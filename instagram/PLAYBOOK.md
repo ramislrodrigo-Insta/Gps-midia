@@ -23,6 +23,7 @@ Igual à semana `semana-2026-11-23` (raiz do repo): fundo azul-escuro, amarelo #
 texto Inter, selo "GPS do Preço", "valores de exemplo", @rodrigo_gpsdopreco.
 Reels animados: usar o motor `tiktok/engine` (trocar o @ do rodapé para @rodrigo_gpsdopreco via prop se necessário).
 Reels com o Rodrigo falando: só se ele enviar o vídeo gravado.
+Reels animados saem NARRADOS por padrão (voz clonada do Rodrigo no ElevenLabs, `narrate.py`), com as mesmas regras da seção Produção do tiktok/PLAYBOOK.md. Sem a chave ou com erro: reel sem narração e aviso na notificação.
 
 ## Conteúdo
 - Mesmo mix de nichos do TikTok (confeitaria 50%, barbearia 20%, salão 15%, geral 15%).
@@ -33,6 +34,8 @@ Reels com o Rodrigo falando: só se ele enviar o vídeo gravado.
 
 ## Aprendizados
 - 2026-11-24: playbook criado. Semana 23-27/11 publicada pelas tarefas antigas.
+
+- 2026-11-27: Rodrigo aprovou narração como padrão nos reels.
 
 ## Histórico de temas
 - 23-27/11: bolo x3, escova, panetone, vizinho, corte de R$ 30 (reels/carrosséis); posts: preço te pagando, faturar≠lucrar, medo de aumentar, copiar concorrente, vender mais ganhar menos.

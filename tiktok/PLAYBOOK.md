@@ -73,6 +73,13 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 
 ## Produção
 - Roteiros em `tiktok/semana-AAAA-MM-DD/videos.json` (cenas: hook, text, rows, big, steps, cta).
+- **Narração é padrão (Rodrigo, 27/11/2026)**: todo vídeo novo sai narrado com a voz clonada do Rodrigo ("Rr") no ElevenLabs, no modelo do piloto `tiktok/piloto/videos.json` (p01).
+  - Cada cena ganha `"say"`: a fala, escrita como se fala (números por extenso: "dez reais e trinta e seis"), batendo com os números da tela. A tela resume; a voz explica.
+  - Roteiro inteiro com ~60-75 palavras para o vídeo ficar em 25-30 s (o p01, com 95 palavras, deu 37 s).
+  - Gancho falado nos 2 primeiros segundos; CTA falado pede o comentário e o "segue".
+  - Antes do render: `cd tiktok/engine && ELEVEN_API_KEY=... python3 narrate.py ../semana-AAAA-MM-DD <ids>` (grava voz em public/voz/, legenda palavra a palavra e ajusta `dur`). Use `"cue": "palavra"` para sincronizar elementos com a fala.
+  - Conferir no MP4 que há faixa de áudio com voz (ffprobe/volumedetect) e ouvir/ler as legendas em 2-3 frames.
+  - Sem `ELEVEN_API_KEY` no ambiente ou erro na API: renderizar sem narração (sem `say`), marcar `"narrado": false` e avisar o Rodrigo na notificação. Nunca gravar a chave no repositório.
 - Render: `cd tiktok/engine && npm install && CHROME_PATH=<chrome-headless-shell> node render.mjs ../semana-AAAA-MM-DD [ids]`.
 - Commitar os MP4 e usar a URL jsDelivr com o hash do commit no Buffer:
   `https://cdn.jsdelivr.net/gh/ramislrodrigo-Insta/gps-midia@<sha>/tiktok/<semana>/videos/<id>.mp4`.
@@ -90,6 +97,8 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 
 - 2026-11-26: Rodrigo assinou o Buffer pago; acabou o limite de 10 agendados.
 - 2026-11-25: motor corrigido: o gancho agora aparece inteiro no frame 0 (antes entrava com fade de ~3-6 frames; t01-t10 saíram assim). Vale a partir do t11.
+
+- 2026-11-27: Rodrigo aprovou narração como padrão (TikTok e Reels) depois do piloto p01. Comparar views/retenção narrado x sem narração nas próximas análises.
 
 ## Histórico de temas (não repetir em menos de 3 semanas)
 - t01 4 partes do preço · t02 sobrou R$ 0 · t03 taxa da maquininha · t04 desconto R$ 10 = 83% do lucro
