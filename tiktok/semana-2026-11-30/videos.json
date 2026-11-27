@@ -201,5 +201,195 @@
    }
   ],
   "caption": "Vendeu 40 panetones. Sobrou quanto?\n\nPanetone de R$ 35 com R$ 22 de custo parece dar R$ 13. Mas cada um leva 45 minutos do seu trabalho: com a sua hora a R$ 15, sobram R$ 1,75. São R$ 70 por 30 horas. Com 25% de lucro, o preço seria R$ 44,33.\n\nQuanto você vai cobrar no panetone esse Natal? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #panetone #natal #precificacao #confeitariacaseira"
+ },
+ {
+  "id": "t13",
+  "dueAt": "2026-12-01T12:00:00-03:00",
+  "pilar": "educativo",
+  "nicho": "barbearia",
+  "formato": "conta animada",
+  "music": "trilha0.m4a",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "barbearia",
+    "lines": [
+     "Quantos cortes",
+     "pra tirar",
+     "*R$ 3.000*?"
+    ],
+    "dur": 2.8
+   },
+   {
+    "type": "rows",
+    "title": "1 corte de R$ 40",
+    "sub": "valores de exemplo",
+    "rows": [
+     {
+      "label": "Lâmina, produto e toalha",
+      "value": "- R$ 3,00"
+     },
+     {
+      "label": "Maquininha (3%)",
+      "value": "- R$ 1,20"
+     },
+     {
+      "label": "Sobra por corte",
+      "value": "R$ 35,80",
+      "tone": "good",
+      "total": true
+     }
+    ],
+    "step": 16,
+    "dur": 4.8
+   },
+   {
+    "type": "rows",
+    "title": "A meta do mês",
+    "rows": [
+     {
+      "label": "Seu salário",
+      "value": "R$ 3.000"
+     },
+     {
+      "label": "Aluguel, luz e água",
+      "value": "R$ 1.500",
+      "tone": "y"
+     },
+     {
+      "label": "Precisa sobrar",
+      "value": "R$ 4.500",
+      "total": true
+     }
+    ],
+    "step": 18,
+    "dur": 4.6
+   },
+   {
+    "type": "big",
+    "pre": "R$ 4.500 ÷ R$ 35,80",
+    "value": 126,
+    "suffix": " cortes",
+    "size": 170,
+    "tone": "bad",
+    "post": "Mais de 5 por dia, 24 dias no mês.\nE se a agenda não enche?",
+    "dur": 4.4
+   },
+   {
+    "type": "text",
+    "lines": [
+     "A R$ 50, bastam *99 cortes*.",
+     "R$ 10 a mais =",
+     "_27 cortes a menos_."
+    ],
+    "stagger": 12,
+    "dur": 3.6
+   },
+   {
+    "type": "cta",
+    "top": "Quantos *cortes* você faz por mês?",
+    "keyword": "Comenta o número",
+    "bottom": "e segue pra mais contas de barbearia",
+    "dur": 3.3
+   }
+  ],
+  "caption": "Quantos cortes pra tirar R$ 3.000 no mês?\n\nCorte de R$ 40: tirando lâmina, produto e maquininha, sobram R$ 35,80. Com R$ 1.500 de custos fixos, você precisa de 126 cortes no mês. A R$ 50, bastam 99: são 27 cortes a menos.\n\nQuantos cortes você faz por mês? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#barbearia #barbeiro #precificacao #mei #empreendedorismo"
+ },
+ {
+  "id": "t14",
+  "dueAt": "2026-12-01T20:00:00-03:00",
+  "pilar": "dor",
+  "nicho": "confeitaria",
+  "formato": "gancho de dor + virada",
+  "music": "trilha2.m4a",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "brigadeiro pelo cento",
+    "lines": [
+     "Cento a *R$ 100*.",
+     "Sobrou _R$ 0_."
+    ],
+    "dur": 2.8
+   },
+   {
+    "type": "rows",
+    "title": "100 brigadeiros",
+    "sub": "valores de exemplo",
+    "rows": [
+     {
+      "label": "Ingredientes",
+      "value": "R$ 38"
+     },
+     {
+      "label": "Forminhas",
+      "value": "R$ 6"
+     },
+     {
+      "label": "Caixa e embalagem",
+      "value": "R$ 8"
+     },
+     {
+      "label": "Gás e luz",
+      "value": "R$ 3"
+     },
+     {
+      "label": "Custo",
+      "value": "R$ 55",
+      "total": true
+     }
+    ],
+    "step": 16,
+    "dur": 5
+   },
+   {
+    "type": "text",
+    "lines": [
+     "Sobram *R$ 45*.",
+     "Parece bom, né?",
+     "Mas enrolar 100",
+     "leva _3 horas_."
+    ],
+    "stagger": 12,
+    "dur": 3.4
+   },
+   {
+    "type": "big",
+    "pre": "Com a sua hora a R$ 15",
+    "from": 45,
+    "value": 0,
+    "prefix": "R$ ",
+    "tone": "bad",
+    "post": "de sobra no cento",
+    "dur": 4
+   },
+   {
+    "type": "rows",
+    "title": "O preço certo",
+    "rows": [
+     {
+      "label": "Custo + seu trabalho",
+      "value": "R$ 100"
+     },
+     {
+      "label": "Com 30% de lucro",
+      "value": "R$ 142,86",
+      "tone": "good",
+      "total": true
+     }
+    ],
+    "step": 20,
+    "note": "100 ÷ 0,7 = preço com 30% de lucro",
+    "dur": 4.6
+   },
+   {
+    "type": "cta",
+    "top": "Quanto você cobra no *cento*?",
+    "keyword": "Comenta o seu preço",
+    "bottom": "e segue pra mais contas de confeitaria",
+    "dur": 3.3
+   }
+  ],
+  "caption": "Cento de brigadeiro a R$ 100. Sobrou R$ 0.\n\nIngredientes, forminhas, caixa e gás somam R$ 55. Parece que sobram R$ 45, mas enrolar 100 leva 3 horas: com a sua hora a R$ 15, a sobra é zero. Com 30% de lucro, o cento seria R$ 142,86.\n\nQuanto você cobra no cento? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #brigadeiro #docesgourmet #precificacao #confeitariacaseira"
  }
 ]

@@ -96,3 +96,4 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 - t05 Erro nº1 esquecer salário (bolo) · t06 Black Friday 30% off · t07 Método Tabela GPS 3 passos
 - t08 agenda cheia, conta vazia · t09 quanto vale sua hora · t10 Erro nº2 copiar o vizinho
 - t11 bolo de pote a R$ 8 (confeitaria, educativo) · t12 40 panetones, sobrou quanto? (confeitaria, dor, Natal)
+- t13 quantos cortes pra tirar R$ 3.000 (barbearia, educativo) · t14 cento de brigadeiro a R$ 100, sobrou R$ 0 (confeitaria, dor)
