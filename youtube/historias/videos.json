@@ -1,679 +1,681 @@
 [
- {
-  "id": "ana-ep01",
-  "series": "Ana Confeiteira · Ep. 1",
-  "handle": " ",
-  "music": "trilha1.m4a",
-  "title": "Ela vendeu 40 bolos e ganhou R$ 4 por hora | Precificação para confeitaria #shorts",
-  "scenes": [
-   {
-    "type": "hook",
-    "kicker": "ana confeiteira · ep. 1",
-    "lines": [
-     "A Ana vendeu *40 bolos*",
-     "e ganhou _R$ 4,40_",
-     "_por hora_"
+  {
+    "id": "ana-ep01",
+    "series": "Ana Confeiteira · Ep. 1",
+    "handle": " ",
+    "music": "trilha1.m4a",
+    "title": "Ela vendeu 40 bolos e ganhou R$ 4 por hora | Precificação para confeitaria #shorts",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "ana confeiteira · ep. 1",
+        "lines": [
+          "A Ana vendeu *40 bolos*",
+          "e ganhou _R$ 4,40_",
+          "_por hora_"
+        ],
+        "dur": 3.4
+      },
+      {
+        "type": "dialog",
+        "place": "confeitaria",
+        "left": "cliente",
+        "right": "ana",
+        "moods": {
+          "cliente": "happy"
+        },
+        "lines": [
+          {
+            "who": "cliente",
+            "text": "Oi! Quanto é o bolo de chocolate?",
+            "at": 0.2
+          },
+          {
+            "who": "ana",
+            "text": "Ingredientes deu R$ 20... vezes 3!",
+            "think": true,
+            "at": 2.8
+          },
+          {
+            "who": "ana",
+            "text": "Fica *R$ 60*!",
+            "at": 5.4
+          },
+          {
+            "who": "cliente",
+            "text": "Fechado! Já quero 2!",
+            "at": 6.8
+          }
+        ],
+        "dur": 9
+      },
+      {
+        "type": "reaction",
+        "who": "ana",
+        "mood": "happy",
+        "lines": [
+          "Vendi!",
+          "Parecia um *ótimo* negócio..."
+        ],
+        "dur": 3.4
+      },
+      {
+        "type": "montage",
+        "label": "bolos vendidos no mês",
+        "count": 40,
+        "notes": [
+          "Ingredientes: _R$ 800_",
+          "Embalagens: _R$ 240_",
+          "Gás e luz: _R$ 480_",
+          "*200 horas* no forno"
+        ],
+        "caption": "Agenda lotada. Forno ligado o mês todo.",
+        "dur": 7
+      },
+      {
+        "type": "statement",
+        "title": "Extrato do mês",
+        "lines": [
+          {
+            "label": "Vendas (40 bolos)",
+            "value": "+ R$ 2.400"
+          },
+          {
+            "label": "Ingredientes",
+            "value": "- R$ 800"
+          },
+          {
+            "label": "Embalagens",
+            "value": "- R$ 240"
+          },
+          {
+            "label": "Gás e luz",
+            "value": "- R$ 480"
+          }
+        ],
+        "totalLabel": "Sobrou",
+        "total": "R$ 880",
+        "sub": "por 200 horas de trabalho",
+        "dur": 7
+      },
+      {
+        "type": "big",
+        "pre": "Isso dá",
+        "value": 4.4,
+        "dec": 2,
+        "prefix": "R$ ",
+        "suffix": "/h",
+        "tone": "bad",
+        "size": 200,
+        "post": "5 horas em cada bolo",
+        "dur": 4
+      },
+      {
+        "type": "reaction",
+        "who": "ana",
+        "mood": "sad",
+        "lines": [
+          "Cadê o meu dinheiro?"
+        ],
+        "dur": 3.4
+      },
+      {
+        "type": "rows",
+        "title": "A conta que ela não fez",
+        "sub": "1 bolo",
+        "rows": [
+          {
+            "label": "Ingredientes",
+            "value": "R$ 20"
+          },
+          {
+            "label": "Embalagem",
+            "value": "R$ 6"
+          },
+          {
+            "label": "Gás e luz",
+            "value": "R$ 12"
+          },
+          {
+            "label": "5 horas dela (R$ 15/h)",
+            "value": "R$ 75",
+            "tone": "y"
+          },
+          {
+            "label": "Custo real",
+            "value": "R$ 113",
+            "tone": "bad",
+            "total": true
+          }
+        ],
+        "step": 16,
+        "note": "Ela cobrava R$ 60 num bolo que *custava R$ 113*.",
+        "dur": 7.6
+      },
+      {
+        "type": "dialog",
+        "place": "confeitaria",
+        "left": "cliente",
+        "right": "ana",
+        "moods": {
+          "ana": "happy"
+        },
+        "lines": [
+          {
+            "who": "cliente",
+            "text": "E agora, quanto é o bolo?",
+            "at": 0.2
+          },
+          {
+            "who": "ana",
+            "text": "*R$ 141.* Com 20% de lucro.",
+            "at": 2
+          },
+          {
+            "who": "cliente",
+            "text": "Hum... vale. Quero!",
+            "at": 4
+          }
+        ],
+        "dur": 6
+      },
+      {
+        "type": "rows",
+        "title": "O mês seguinte",
+        "rows": [
+          {
+            "label": "20 bolos a R$ 141",
+            "value": "R$ 2.820"
+          },
+          {
+            "label": "Custos (sem as horas)",
+            "value": "- R$ 760",
+            "tone": "bad"
+          },
+          {
+            "label": "Sobrou",
+            "value": "R$ 2.060",
+            "tone": "good",
+            "total": true
+          }
+        ],
+        "step": 18,
+        "note": "*Metade* do trabalho. Mais que o *dobro* no bolso.",
+        "dur": 6.4
+      },
+      {
+        "type": "cta",
+        "top": "Você cobra como a Ana cobrava?",
+        "keyword": "SIM ou NÃO",
+        "bottom": "Comenta e se inscreve pro ep. 2",
+        "dur": 4
+      }
     ],
-    "dur": 3.4
-   },
-   {
-    "type": "dialog",
-    "place": "confeitaria",
-    "left": "cliente",
-    "right": "ana",
-    "moods": {
-     "cliente": "happy"
-    },
-    "lines": [
-     {
-      "who": "cliente",
-      "text": "Oi! Quanto é o bolo de chocolate?",
-      "at": 0.2
-     },
-     {
-      "who": "ana",
-      "text": "Ingredientes deu R$ 20... vezes 3!",
-      "think": true,
-      "at": 2.8
-     },
-     {
-      "who": "ana",
-      "text": "Fica *R$ 60*!",
-      "at": 5.4
-     },
-     {
-      "who": "cliente",
-      "text": "Fechado! Já quero 2!",
-      "at": 6.8
-     }
+    "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts",
+    "published": true,
+    "data": "2026-11-24",
+    "narrado": false,
+    "aguardando_narracao": false,
+    "falas_narracao": [
+      [
+        "01",
+        "A Ana vendeu quarenta bolos no mês. E ganhou quatro reais e quarenta por hora."
+      ],
+      [
+        "02",
+        "Uma cliente chegou e perguntou quanto era o bolo de chocolate. A Ana fez a conta de sempre: ingredientes deram vinte reais, vezes três, sessenta reais! E a cliente fechou na hora."
+      ],
+      [
+        "03",
+        "Vendeu! Parecia um ótimo negócio."
+      ],
+      [
+        "04",
+        "Logo vieram mais pedidos. Quarenta bolos no mês, com o forno ligado o tempo todo."
+      ],
+      [
+        "05",
+        "No fim do mês, o extrato: dois mil e quatrocentos reais de vendas. Tirando ingredientes, embalagens, gás e luz, sobraram só oitocentos e oitenta reais."
+      ],
+      [
+        "06",
+        "Por duzentas horas de trabalho. Isso dá quatro reais e quarenta por hora."
+      ],
+      [
+        "07",
+        "E ela se perguntou: cadê o meu dinheiro?"
+      ],
+      [
+        "08",
+        "A conta que faltou: ingredientes, vinte reais. Embalagem, seis. Gás e luz, doze. E cinco horas do trabalho dela, a quinze reais a hora, setenta e cinco. O bolo custava cento e treze reais. Ela cobrava sessenta."
+      ],
+      [
+        "09",
+        "Com a conta certa e vinte por cento de lucro, o bolo foi para cento e quarenta e um reais. E a cliente comprou do mesmo jeito."
+      ],
+      [
+        "10",
+        "No mês seguinte, ela vendeu vinte bolos. Metade do trabalho, e sobraram dois mil e sessenta reais. Mais que o dobro."
+      ],
+      [
+        "11",
+        "E você, cobra como a Ana cobrava? Comenta sim ou não. E se inscreve pra ver o próximo episódio."
+      ]
     ],
-    "dur": 9
-   },
-   {
-    "type": "reaction",
-    "who": "ana",
-    "mood": "happy",
-    "lines": [
-     "Vendi!",
-     "Parecia um *ótimo* negócio..."
+    "buffer_post_id": "6b05f6c1e57cd4af41f201d1"
+  },
+  {
+    "id": "ana-ep01-narrado",
+    "series": "Ana Confeiteira · Ep. 1",
+    "handle": " ",
+    "music": "trilha1.m4a",
+    "title": "Ela vendeu 40 bolos e ganhou R$ 4 por hora | Precificação para confeitaria #shorts",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "ana confeiteira · ep. 1",
+        "lines": [
+          "A Ana vendeu *40 bolos*",
+          "e ganhou _R$ 4,40_",
+          "_por hora_"
+        ],
+        "dur": 5.91,
+        "voice": "voz/ep01-01.mp3"
+      },
+      {
+        "type": "dialog",
+        "place": "confeitaria",
+        "left": "cliente",
+        "right": "ana",
+        "moods": {
+          "cliente": "happy"
+        },
+        "lines": [
+          {
+            "who": "cliente",
+            "text": "Oi! Quanto é o bolo de chocolate?",
+            "at": 0.28
+          },
+          {
+            "who": "ana",
+            "text": "Ingredientes deu R$ 20... vezes 3!",
+            "think": true,
+            "at": 3.91
+          },
+          {
+            "who": "ana",
+            "text": "Fica *R$ 60*!",
+            "at": 7.54
+          },
+          {
+            "who": "cliente",
+            "text": "Fechado! Já quero 2!",
+            "at": 9.5
+          }
+        ],
+        "dur": 12.57,
+        "voice": "voz/ep01-02.mp3"
+      },
+      {
+        "type": "reaction",
+        "who": "ana",
+        "mood": "happy",
+        "lines": [
+          "Vendi!",
+          "Parecia um *ótimo* negócio..."
+        ],
+        "dur": 3.12,
+        "voice": "voz/ep01-03.mp3"
+      },
+      {
+        "type": "montage",
+        "label": "bolos vendidos no mês",
+        "count": 40,
+        "notes": [
+          "Ingredientes: _R$ 800_",
+          "Embalagens: _R$ 240_",
+          "Gás e luz: _R$ 480_",
+          "*200 horas* no forno"
+        ],
+        "caption": "Agenda lotada. Forno ligado o mês todo.",
+        "dur": 6.7,
+        "voice": "voz/ep01-04.mp3"
+      },
+      {
+        "type": "statement",
+        "title": "Extrato do mês",
+        "lines": [
+          {
+            "label": "Vendas (40 bolos)",
+            "value": "+ R$ 2.400"
+          },
+          {
+            "label": "Ingredientes",
+            "value": "- R$ 800"
+          },
+          {
+            "label": "Embalagens",
+            "value": "- R$ 240"
+          },
+          {
+            "label": "Gás e luz",
+            "value": "- R$ 480"
+          }
+        ],
+        "totalLabel": "Sobrou",
+        "total": "R$ 880",
+        "sub": "por 200 horas de trabalho",
+        "dur": 10.74,
+        "voice": "voz/ep01-05.mp3"
+      },
+      {
+        "type": "big",
+        "pre": "Isso dá",
+        "value": 4.4,
+        "dec": 2,
+        "prefix": "R$ ",
+        "suffix": "/h",
+        "tone": "bad",
+        "size": 200,
+        "post": "5 horas em cada bolo",
+        "dur": 6.12,
+        "voice": "voz/ep01-06.mp3"
+      },
+      {
+        "type": "reaction",
+        "who": "ana",
+        "mood": "sad",
+        "lines": [
+          "Cadê o meu dinheiro?"
+        ],
+        "dur": 3.2,
+        "voice": "voz/ep01-07.mp3"
+      },
+      {
+        "type": "rows",
+        "title": "A conta que ela não fez",
+        "sub": "1 bolo",
+        "rows": [
+          {
+            "label": "Ingredientes",
+            "value": "R$ 20"
+          },
+          {
+            "label": "Embalagem",
+            "value": "R$ 6"
+          },
+          {
+            "label": "Gás e luz",
+            "value": "R$ 12"
+          },
+          {
+            "label": "5 horas dela (R$ 15/h)",
+            "value": "R$ 75",
+            "tone": "y"
+          },
+          {
+            "label": "Custo real",
+            "value": "R$ 113",
+            "tone": "bad",
+            "total": true
+          }
+        ],
+        "step": 16,
+        "note": "Ela cobrava R$ 60 num bolo que *custava R$ 113*.",
+        "dur": 15.73,
+        "voice": "voz/ep01-08.mp3"
+      },
+      {
+        "type": "dialog",
+        "place": "confeitaria",
+        "left": "cliente",
+        "right": "ana",
+        "moods": {
+          "ana": "happy"
+        },
+        "lines": [
+          {
+            "who": "cliente",
+            "text": "E agora, quanto é o bolo?",
+            "at": 0.26
+          },
+          {
+            "who": "ana",
+            "text": "*R$ 141.* Com 20% de lucro.",
+            "at": 2.58
+          },
+          {
+            "who": "cliente",
+            "text": "Hum... vale. Quero!",
+            "at": 5.16
+          }
+        ],
+        "dur": 7.74,
+        "voice": "voz/ep01-09.mp3"
+      },
+      {
+        "type": "rows",
+        "title": "O mês seguinte",
+        "rows": [
+          {
+            "label": "20 bolos a R$ 141",
+            "value": "R$ 2.820"
+          },
+          {
+            "label": "Custos (sem as horas)",
+            "value": "- R$ 760",
+            "tone": "bad"
+          },
+          {
+            "label": "Sobrou",
+            "value": "R$ 2.060",
+            "tone": "good",
+            "total": true
+          }
+        ],
+        "step": 18,
+        "note": "*Metade* do trabalho. Mais que o *dobro* no bolso.",
+        "dur": 8.47,
+        "voice": "voz/ep01-10.mp3"
+      },
+      {
+        "type": "cta",
+        "top": "Você cobra como a Ana cobrava?",
+        "keyword": "SIM ou NÃO",
+        "bottom": "Comenta e se inscreve pro ep. 2",
+        "dur": 6.51,
+        "voice": "voz/ep01-11.mp3"
+      }
     ],
-    "dur": 3.4
-   },
-   {
-    "type": "montage",
-    "label": "bolos vendidos no mês",
-    "count": 40,
-    "notes": [
-     "Ingredientes: _R$ 800_",
-     "Embalagens: _R$ 240_",
-     "Gás e luz: _R$ 480_",
-     "*200 horas* no forno"
+    "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts",
+    "data": "2026-11-25",
+    "buffer_post_id": "6b05f6c1e57cd4af41f201d1",
+    "narrado": true,
+    "published": true,
+    "buffer_post": "6b062444615ec212af704ba0"
+  },
+  {
+    "id": "ana-ep02",
+    "series": "Ana Confeiteira · Ep. 2",
+    "handle": " ",
+    "music": "trilha2.m4a",
+    "narrado": true,
+    "title": "Ela deu 30% de desconto na Black Friday e perdeu dinheiro em cada bolo #shorts",
+    "data": "2026-11-27",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "ana confeiteira · black friday",
+        "lines": [
+          "*30% de desconto*",
+          "e prejuízo",
+          "_em cada bolo_"
+        ],
+        "voice": "voz/ep02-01.mp3",
+        "dur": 7.32
+      },
+      {
+        "type": "reaction",
+        "who": "ana",
+        "mood": "happy",
+        "lines": [
+          "Lembra da Ana?",
+          "Custo do bolo: *R$ 113*. Preço: *R$ 141*."
+        ],
+        "voice": "voz/ep02-02.mp3",
+        "dur": 7.27
+      },
+      {
+        "type": "dialog",
+        "place": "confeitaria",
+        "left": "cliente",
+        "right": "ana",
+        "lines": [
+          {
+            "who": "cliente",
+            "text": "Vai ter promoção de *Black Friday*?",
+            "at": 2.8035
+          }
+        ],
+        "caption": "Todo mundo dando desconto...",
+        "voice": "voz/ep02-03.mp3",
+        "dur": 6.23
+      },
+      {
+        "type": "dialog",
+        "place": "confeitaria",
+        "left": "cliente",
+        "right": "ana",
+        "moods": {
+          "cliente": "happy"
+        },
+        "lines": [
+          {
+            "who": "ana",
+            "text": "30%, igual ao shopping!",
+            "think": true,
+            "at": 0.2
+          },
+          {
+            "who": "ana",
+            "text": "Fica *R$ 98,70*!",
+            "at": 4.488
+          }
+        ],
+        "voice": "voz/ep02-04.mp3",
+        "dur": 7.48
+      },
+      {
+        "type": "montage",
+        "label": "bolos em 3 dias",
+        "count": 15,
+        "notes": [
+          "Forno ligado *sem parar*"
+        ],
+        "caption": "Choveu pedido.",
+        "voice": "voz/ep02-05.mp3",
+        "dur": 5.73
+      },
+      {
+        "type": "rows",
+        "title": "Cada bolo",
+        "rows": [
+          {
+            "label": "Custo",
+            "value": "R$ 113"
+          },
+          {
+            "label": "Vendido a",
+            "value": "R$ 98,70"
+          },
+          {
+            "label": "Resultado",
+            "value": "- R$ 14,30",
+            "tone": "bad",
+            "total": true
+          }
+        ],
+        "step": 22,
+        "voice": "voz/ep02-06.mp3",
+        "dur": 7.64
+      },
+      {
+        "type": "big",
+        "pre": "15 bolos",
+        "value": 214.5,
+        "dec": 2,
+        "prefix": "−R$ ",
+        "tone": "bad",
+        "size": 190,
+        "post": "Quanto mais vendia, *mais perdia*.",
+        "voice": "voz/ep02-07.mp3",
+        "dur": 7.09
+      },
+      {
+        "type": "rows",
+        "title": "O limite do desconto",
+        "rows": [
+          {
+            "label": "Preço",
+            "value": "R$ 141"
+          },
+          {
+            "label": "Custo",
+            "value": "R$ 113"
+          },
+          {
+            "label": "Lucro = desconto máximo",
+            "value": "R$ 28",
+            "tone": "good",
+            "total": true
+          }
+        ],
+        "step": 22,
+        "note": "R$ 28 de R$ 141 = *quase 20%*. Passou disso, _é prejuízo_.",
+        "voice": "voz/ep02-08.mp3",
+        "dur": 8.92
+      },
+      {
+        "type": "dialog",
+        "place": "confeitaria",
+        "left": "cliente",
+        "right": "ana",
+        "moods": {
+          "cliente": "happy",
+          "ana": "happy"
+        },
+        "lines": [
+          {
+            "who": "ana",
+            "text": "Leva um *docinho de brinde*!",
+            "at": 2.5549999999999997
+          }
+        ],
+        "caption": "Brinde que custa *R$ 2* pra ela",
+        "voice": "voz/ep02-09.mp3",
+        "dur": 7.3
+      },
+      {
+        "type": "big",
+        "pre": "Lucro por bolo",
+        "value": 26,
+        "prefix": "R$ ",
+        "tone": "good",
+        "post": "e a cliente saiu feliz do mesmo jeito",
+        "voice": "voz/ep02-10.mp3",
+        "dur": 5.39
+      },
+      {
+        "type": "cta",
+        "top": "Você dá *desconto* ou *brinde*?",
+        "keyword": "Comenta",
+        "bottom": "e se inscreve pro ep. 3 da Ana",
+        "voice": "voz/ep02-11.mp3",
+        "dur": 6.8
+      }
     ],
-    "caption": "Agenda lotada. Forno ligado o mês todo.",
-    "dur": 7
-   },
-   {
-    "type": "statement",
-    "title": "Extrato do mês",
-    "lines": [
-     {
-      "label": "Vendas (40 bolos)",
-      "value": "+ R$ 2.400"
-     },
-     {
-      "label": "Ingredientes",
-      "value": "- R$ 800"
-     },
-     {
-      "label": "Embalagens",
-      "value": "- R$ 240"
-     },
-     {
-      "label": "Gás e luz",
-      "value": "- R$ 480"
-     }
-    ],
-    "totalLabel": "Sobrou",
-    "total": "R$ 880",
-    "sub": "por 200 horas de trabalho",
-    "dur": 7
-   },
-   {
-    "type": "big",
-    "pre": "Isso dá",
-    "value": 4.4,
-    "dec": 2,
-    "prefix": "R$ ",
-    "suffix": "/h",
-    "tone": "bad",
-    "size": 200,
-    "post": "5 horas em cada bolo",
-    "dur": 4
-   },
-   {
-    "type": "reaction",
-    "who": "ana",
-    "mood": "sad",
-    "lines": [
-     "Cadê o meu dinheiro?"
-    ],
-    "dur": 3.4
-   },
-   {
-    "type": "rows",
-    "title": "A conta que ela não fez",
-    "sub": "1 bolo",
-    "rows": [
-     {
-      "label": "Ingredientes",
-      "value": "R$ 20"
-     },
-     {
-      "label": "Embalagem",
-      "value": "R$ 6"
-     },
-     {
-      "label": "Gás e luz",
-      "value": "R$ 12"
-     },
-     {
-      "label": "5 horas dela (R$ 15/h)",
-      "value": "R$ 75",
-      "tone": "y"
-     },
-     {
-      "label": "Custo real",
-      "value": "R$ 113",
-      "tone": "bad",
-      "total": true
-     }
-    ],
-    "step": 16,
-    "note": "Ela cobrava R$ 60 num bolo que *custava R$ 113*.",
-    "dur": 7.6
-   },
-   {
-    "type": "dialog",
-    "place": "confeitaria",
-    "left": "cliente",
-    "right": "ana",
-    "moods": {
-     "ana": "happy"
-    },
-    "lines": [
-     {
-      "who": "cliente",
-      "text": "E agora, quanto é o bolo?",
-      "at": 0.2
-     },
-     {
-      "who": "ana",
-      "text": "*R$ 141.* Com 20% de lucro.",
-      "at": 2
-     },
-     {
-      "who": "cliente",
-      "text": "Hum... vale. Quero!",
-      "at": 4
-     }
-    ],
-    "dur": 6
-   },
-   {
-    "type": "rows",
-    "title": "O mês seguinte",
-    "rows": [
-     {
-      "label": "20 bolos a R$ 141",
-      "value": "R$ 2.820"
-     },
-     {
-      "label": "Custos (sem as horas)",
-      "value": "- R$ 760",
-      "tone": "bad"
-     },
-     {
-      "label": "Sobrou",
-      "value": "R$ 2.060",
-      "tone": "good",
-      "total": true
-     }
-    ],
-    "step": 18,
-    "note": "*Metade* do trabalho. Mais que o *dobro* no bolso.",
-    "dur": 6.4
-   },
-   {
-    "type": "cta",
-    "top": "Você cobra como a Ana cobrava?",
-    "keyword": "SIM ou NÃO",
-    "bottom": "Comenta e se inscreve pro ep. 2",
-    "dur": 4
-   }
-  ],
-  "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts",
-  "published": true,
-  "data": "2026-11-24",
-  "narrado": false,
-  "aguardando_narracao": false,
-  "falas_narracao": [
-   [
-    "01",
-    "A Ana vendeu quarenta bolos no mês. E ganhou quatro reais e quarenta por hora."
-   ],
-   [
-    "02",
-    "Uma cliente chegou e perguntou quanto era o bolo de chocolate. A Ana fez a conta de sempre: ingredientes deram vinte reais, vezes três, sessenta reais! E a cliente fechou na hora."
-   ],
-   [
-    "03",
-    "Vendeu! Parecia um ótimo negócio."
-   ],
-   [
-    "04",
-    "Logo vieram mais pedidos. Quarenta bolos no mês, com o forno ligado o tempo todo."
-   ],
-   [
-    "05",
-    "No fim do mês, o extrato: dois mil e quatrocentos reais de vendas. Tirando ingredientes, embalagens, gás e luz, sobraram só oitocentos e oitenta reais."
-   ],
-   [
-    "06",
-    "Por duzentas horas de trabalho. Isso dá quatro reais e quarenta por hora."
-   ],
-   [
-    "07",
-    "E ela se perguntou: cadê o meu dinheiro?"
-   ],
-   [
-    "08",
-    "A conta que faltou: ingredientes, vinte reais. Embalagem, seis. Gás e luz, doze. E cinco horas do trabalho dela, a quinze reais a hora, setenta e cinco. O bolo custava cento e treze reais. Ela cobrava sessenta."
-   ],
-   [
-    "09",
-    "Com a conta certa e vinte por cento de lucro, o bolo foi para cento e quarenta e um reais. E a cliente comprou do mesmo jeito."
-   ],
-   [
-    "10",
-    "No mês seguinte, ela vendeu vinte bolos. Metade do trabalho, e sobraram dois mil e sessenta reais. Mais que o dobro."
-   ],
-   [
-    "11",
-    "E você, cobra como a Ana cobrava? Comenta sim ou não. E se inscreve pra ver o próximo episódio."
-   ]
-  ],
-  "buffer_post_id": "6b05f6c1e57cd4af41f201d1"
- },
- {
-  "id": "ana-ep01-narrado",
-  "series": "Ana Confeiteira · Ep. 1",
-  "handle": " ",
-  "music": "trilha1.m4a",
-  "title": "Ela vendeu 40 bolos e ganhou R$ 4 por hora | Precificação para confeitaria #shorts",
-  "scenes": [
-   {
-    "type": "hook",
-    "kicker": "ana confeiteira · ep. 1",
-    "lines": [
-     "A Ana vendeu *40 bolos*",
-     "e ganhou _R$ 4,40_",
-     "_por hora_"
-    ],
-    "dur": 5.91,
-    "voice": "voz/ep01-01.mp3"
-   },
-   {
-    "type": "dialog",
-    "place": "confeitaria",
-    "left": "cliente",
-    "right": "ana",
-    "moods": {
-     "cliente": "happy"
-    },
-    "lines": [
-     {
-      "who": "cliente",
-      "text": "Oi! Quanto é o bolo de chocolate?",
-      "at": 0.28
-     },
-     {
-      "who": "ana",
-      "text": "Ingredientes deu R$ 20... vezes 3!",
-      "think": true,
-      "at": 3.91
-     },
-     {
-      "who": "ana",
-      "text": "Fica *R$ 60*!",
-      "at": 7.54
-     },
-     {
-      "who": "cliente",
-      "text": "Fechado! Já quero 2!",
-      "at": 9.5
-     }
-    ],
-    "dur": 12.57,
-    "voice": "voz/ep01-02.mp3"
-   },
-   {
-    "type": "reaction",
-    "who": "ana",
-    "mood": "happy",
-    "lines": [
-     "Vendi!",
-     "Parecia um *ótimo* negócio..."
-    ],
-    "dur": 3.12,
-    "voice": "voz/ep01-03.mp3"
-   },
-   {
-    "type": "montage",
-    "label": "bolos vendidos no mês",
-    "count": 40,
-    "notes": [
-     "Ingredientes: _R$ 800_",
-     "Embalagens: _R$ 240_",
-     "Gás e luz: _R$ 480_",
-     "*200 horas* no forno"
-    ],
-    "caption": "Agenda lotada. Forno ligado o mês todo.",
-    "dur": 6.7,
-    "voice": "voz/ep01-04.mp3"
-   },
-   {
-    "type": "statement",
-    "title": "Extrato do mês",
-    "lines": [
-     {
-      "label": "Vendas (40 bolos)",
-      "value": "+ R$ 2.400"
-     },
-     {
-      "label": "Ingredientes",
-      "value": "- R$ 800"
-     },
-     {
-      "label": "Embalagens",
-      "value": "- R$ 240"
-     },
-     {
-      "label": "Gás e luz",
-      "value": "- R$ 480"
-     }
-    ],
-    "totalLabel": "Sobrou",
-    "total": "R$ 880",
-    "sub": "por 200 horas de trabalho",
-    "dur": 10.74,
-    "voice": "voz/ep01-05.mp3"
-   },
-   {
-    "type": "big",
-    "pre": "Isso dá",
-    "value": 4.4,
-    "dec": 2,
-    "prefix": "R$ ",
-    "suffix": "/h",
-    "tone": "bad",
-    "size": 200,
-    "post": "5 horas em cada bolo",
-    "dur": 6.12,
-    "voice": "voz/ep01-06.mp3"
-   },
-   {
-    "type": "reaction",
-    "who": "ana",
-    "mood": "sad",
-    "lines": [
-     "Cadê o meu dinheiro?"
-    ],
-    "dur": 3.2,
-    "voice": "voz/ep01-07.mp3"
-   },
-   {
-    "type": "rows",
-    "title": "A conta que ela não fez",
-    "sub": "1 bolo",
-    "rows": [
-     {
-      "label": "Ingredientes",
-      "value": "R$ 20"
-     },
-     {
-      "label": "Embalagem",
-      "value": "R$ 6"
-     },
-     {
-      "label": "Gás e luz",
-      "value": "R$ 12"
-     },
-     {
-      "label": "5 horas dela (R$ 15/h)",
-      "value": "R$ 75",
-      "tone": "y"
-     },
-     {
-      "label": "Custo real",
-      "value": "R$ 113",
-      "tone": "bad",
-      "total": true
-     }
-    ],
-    "step": 16,
-    "note": "Ela cobrava R$ 60 num bolo que *custava R$ 113*.",
-    "dur": 15.73,
-    "voice": "voz/ep01-08.mp3"
-   },
-   {
-    "type": "dialog",
-    "place": "confeitaria",
-    "left": "cliente",
-    "right": "ana",
-    "moods": {
-     "ana": "happy"
-    },
-    "lines": [
-     {
-      "who": "cliente",
-      "text": "E agora, quanto é o bolo?",
-      "at": 0.26
-     },
-     {
-      "who": "ana",
-      "text": "*R$ 141.* Com 20% de lucro.",
-      "at": 2.58
-     },
-     {
-      "who": "cliente",
-      "text": "Hum... vale. Quero!",
-      "at": 5.16
-     }
-    ],
-    "dur": 7.74,
-    "voice": "voz/ep01-09.mp3"
-   },
-   {
-    "type": "rows",
-    "title": "O mês seguinte",
-    "rows": [
-     {
-      "label": "20 bolos a R$ 141",
-      "value": "R$ 2.820"
-     },
-     {
-      "label": "Custos (sem as horas)",
-      "value": "- R$ 760",
-      "tone": "bad"
-     },
-     {
-      "label": "Sobrou",
-      "value": "R$ 2.060",
-      "tone": "good",
-      "total": true
-     }
-    ],
-    "step": 18,
-    "note": "*Metade* do trabalho. Mais que o *dobro* no bolso.",
-    "dur": 8.47,
-    "voice": "voz/ep01-10.mp3"
-   },
-   {
-    "type": "cta",
-    "top": "Você cobra como a Ana cobrava?",
-    "keyword": "SIM ou NÃO",
-    "bottom": "Comenta e se inscreve pro ep. 2",
-    "dur": 6.51,
-    "voice": "voz/ep01-11.mp3"
-   }
-  ],
-  "description": "A Ana vendeu 40 bolos no mês e ganhou R$ 4,40 por hora.\n\nEla fazia a conta mais comum da confeitaria: ingredientes vezes 3. Só que essa regra esquece gás, luz, embalagem e as horas dela. Cada bolo de R$ 60 custava R$ 113 de verdade.\n\nCom a conta certa (custo ÷ 0,8 = preço com 20% de lucro), o bolo foi para R$ 141. Ela vendeu metade e sobrou mais que o dobro.\n\nVocê cobra como a Ana cobrava? Comenta SIM ou NÃO.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #quantocobrar #confeitariacaseira #shorts",
-  "data": "2026-11-25",
-  "buffer_post_id": "6b05f6c1e57cd4af41f201d1",
-  "narrado": true,
-  "published": true,
-  "buffer_post": "6b062444615ec212af704ba0"
- },
- {
-  "id": "ana-ep02",
-  "series": "Ana Confeiteira · Ep. 2",
-  "handle": " ",
-  "music": "trilha2.m4a",
-  "narrado": true,
-  "title": "Ela deu 30% de desconto na Black Friday e perdeu dinheiro em cada bolo #shorts",
-  "data": "2026-11-27",
-  "scenes": [
-   {
-    "type": "hook",
-    "kicker": "ana confeiteira · black friday",
-    "lines": [
-     "*30% de desconto*",
-     "e prejuízo",
-     "_em cada bolo_"
-    ],
-    "voice": "voz/ep02-01.mp3",
-    "dur": 7.32
-   },
-   {
-    "type": "reaction",
-    "who": "ana",
-    "mood": "happy",
-    "lines": [
-     "Lembra da Ana?",
-     "Custo do bolo: *R$ 113*. Preço: *R$ 141*."
-    ],
-    "voice": "voz/ep02-02.mp3",
-    "dur": 7.27
-   },
-   {
-    "type": "dialog",
-    "place": "confeitaria",
-    "left": "cliente",
-    "right": "ana",
-    "lines": [
-     {
-      "who": "cliente",
-      "text": "Vai ter promoção de *Black Friday*?",
-      "at": 2.8035
-     }
-    ],
-    "caption": "Todo mundo dando desconto...",
-    "voice": "voz/ep02-03.mp3",
-    "dur": 6.23
-   },
-   {
-    "type": "dialog",
-    "place": "confeitaria",
-    "left": "cliente",
-    "right": "ana",
-    "moods": {
-     "cliente": "happy"
-    },
-    "lines": [
-     {
-      "who": "ana",
-      "text": "30%, igual ao shopping!",
-      "think": true,
-      "at": 0.2
-     },
-     {
-      "who": "ana",
-      "text": "Fica *R$ 98,70*!",
-      "at": 4.488
-     }
-    ],
-    "voice": "voz/ep02-04.mp3",
-    "dur": 7.48
-   },
-   {
-    "type": "montage",
-    "label": "bolos em 3 dias",
-    "count": 15,
-    "notes": [
-     "Forno ligado *sem parar*"
-    ],
-    "caption": "Choveu pedido.",
-    "voice": "voz/ep02-05.mp3",
-    "dur": 5.73
-   },
-   {
-    "type": "rows",
-    "title": "Cada bolo",
-    "rows": [
-     {
-      "label": "Custo",
-      "value": "R$ 113"
-     },
-     {
-      "label": "Vendido a",
-      "value": "R$ 98,70"
-     },
-     {
-      "label": "Resultado",
-      "value": "- R$ 14,30",
-      "tone": "bad",
-      "total": true
-     }
-    ],
-    "step": 22,
-    "voice": "voz/ep02-06.mp3",
-    "dur": 7.64
-   },
-   {
-    "type": "big",
-    "pre": "15 bolos",
-    "value": 214.5,
-    "dec": 2,
-    "prefix": "−R$ ",
-    "tone": "bad",
-    "size": 190,
-    "post": "Quanto mais vendia, *mais perdia*.",
-    "voice": "voz/ep02-07.mp3",
-    "dur": 7.09
-   },
-   {
-    "type": "rows",
-    "title": "O limite do desconto",
-    "rows": [
-     {
-      "label": "Preço",
-      "value": "R$ 141"
-     },
-     {
-      "label": "Custo",
-      "value": "R$ 113"
-     },
-     {
-      "label": "Lucro = desconto máximo",
-      "value": "R$ 28",
-      "tone": "good",
-      "total": true
-     }
-    ],
-    "step": 22,
-    "note": "R$ 28 de R$ 141 = *quase 20%*. Passou disso, _é prejuízo_.",
-    "voice": "voz/ep02-08.mp3",
-    "dur": 8.92
-   },
-   {
-    "type": "dialog",
-    "place": "confeitaria",
-    "left": "cliente",
-    "right": "ana",
-    "moods": {
-     "cliente": "happy",
-     "ana": "happy"
-    },
-    "lines": [
-     {
-      "who": "ana",
-      "text": "Leva um *docinho de brinde*!",
-      "at": 2.5549999999999997
-     }
-    ],
-    "caption": "Brinde que custa *R$ 2* pra ela",
-    "voice": "voz/ep02-09.mp3",
-    "dur": 7.3
-   },
-   {
-    "type": "big",
-    "pre": "Lucro por bolo",
-    "value": 26,
-    "prefix": "R$ ",
-    "tone": "good",
-    "post": "e a cliente saiu feliz do mesmo jeito",
-    "voice": "voz/ep02-10.mp3",
-    "dur": 5.39
-   },
-   {
-    "type": "cta",
-    "top": "Você dá *desconto* ou *brinde*?",
-    "keyword": "Comenta",
-    "bottom": "e se inscreve pro ep. 3 da Ana",
-    "voice": "voz/ep02-11.mp3",
-    "dur": 6.8
-   }
-  ],
-  "description": "Na Black Friday, a Ana deu 30% de desconto. E cada bolo vendido tirou dinheiro do bolso dela.\n\nO bolo custava R$ 113 e saiu por R$ 98,70: R$ 14,30 de prejuízo em cada um. Em 15 bolos, R$ 214,50 a menos. O desconto tem que caber no lucro: com R$ 28 de lucro num bolo de R$ 141, o limite é quase 20%.\n\nNa promoção seguinte, ela trocou o desconto por um brinde de R$ 2 e manteve R$ 26 de lucro por bolo.\n\nVocê dá desconto ou brinde? Comenta aqui. Se inscreve pro próximo episódio.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #blackfriday #quantocobrar #shorts"
- }
+    "description": "Na Black Friday, a Ana deu 30% de desconto. E cada bolo vendido tirou dinheiro do bolso dela.\n\nO bolo custava R$ 113 e saiu por R$ 98,70: R$ 14,30 de prejuízo em cada um. Em 15 bolos, R$ 214,50 a menos. O desconto tem que caber no lucro: com R$ 28 de lucro num bolo de R$ 141, o limite é quase 20%.\n\nNa promoção seguinte, ela trocou o desconto por um brinde de R$ 2 e manteve R$ 26 de lucro por bolo.\n\nVocê dá desconto ou brinde? Comenta aqui. Se inscreve pro próximo episódio.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #precificacao #blackfriday #quantocobrar #shorts",
+    "published": true,
+    "buffer_post_id": "6b09eb3971e8cc12a6cb8efb"
+  }
 ]
