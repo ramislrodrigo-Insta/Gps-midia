@@ -391,5 +391,215 @@
    }
   ],
   "caption": "Cento de brigadeiro a R$ 100. Sobrou R$ 0.\n\nIngredientes, forminhas, caixa e gás somam R$ 55. Parece que sobram R$ 45, mas enrolar 100 leva 3 horas: com a sua hora a R$ 15, a sobra é zero. Com 30% de lucro, o cento seria R$ 142,86.\n\nQuanto você cobra no cento? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #brigadeiro #docesgourmet #precificacao #confeitariacaseira"
+ },
+ {
+  "id": "t15",
+  "dueAt": "2026-12-02T12:00:00-03:00",
+  "pilar": "educativo",
+  "nicho": "salao",
+  "formato": "conta animada",
+  "narrado": false,
+  "music": "trilha0.m4a",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "salão de beleza",
+    "lines": [
+     "Progressiva",
+     "a *R$ 120*.",
+     "Sobra _quanto_?"
+    ],
+    "dur": 2.8
+   },
+   {
+    "type": "rows",
+    "title": "1 progressiva",
+    "sub": "valores de exemplo",
+    "rows": [
+     {
+      "label": "Produto",
+      "value": "R$ 35"
+     },
+     {
+      "label": "Luvas, papel e toalha",
+      "value": "R$ 5"
+     },
+     {
+      "label": "Material",
+      "value": "R$ 40",
+      "total": true
+     }
+    ],
+    "step": 16,
+    "dur": 4.4
+   },
+   {
+    "type": "text",
+    "lines": [
+     "Parece que sobram *R$ 80*.",
+     "Mas são _3 horas_",
+     "de cadeira."
+    ],
+    "stagger": 12,
+    "dur": 3.4
+   },
+   {
+    "type": "rows",
+    "title": "Sua hora: R$ 25",
+    "sub": "R$ 4.000 ÷ 160 horas",
+    "rows": [
+     {
+      "label": "Material",
+      "value": "R$ 40"
+     },
+     {
+      "label": "3 horas × R$ 25",
+      "value": "R$ 75",
+      "tone": "y"
+     },
+     {
+      "label": "Custo de verdade",
+      "value": "R$ 115",
+      "total": true
+     }
+    ],
+    "step": 18,
+    "dur": 4.6
+   },
+   {
+    "type": "big",
+    "pre": "R$ 120 − R$ 115",
+    "value": 5,
+    "prefix": "R$ ",
+    "tone": "bad",
+    "post": "de sobra por 3 horas",
+    "dur": 3.8
+   },
+   {
+    "type": "rows",
+    "title": "O preço certo",
+    "rows": [
+     {
+      "label": "Custo de verdade",
+      "value": "R$ 115"
+     },
+     {
+      "label": "Com 20% de lucro",
+      "value": "R$ 143,75",
+      "tone": "good",
+      "total": true
+     }
+    ],
+    "step": 20,
+    "note": "115 ÷ 0,8 = preço com 20% de lucro",
+    "dur": 4.4
+   },
+   {
+    "type": "cta",
+    "top": "Quanto você cobra na *progressiva*?",
+    "keyword": "Comenta o seu preço",
+    "bottom": "e segue pra mais contas de salão",
+    "dur": 3.3
+   }
+  ],
+  "caption": "Progressiva a R$ 120. Sobra quanto?\n\nProduto e material somam R$ 40. Parece que sobram R$ 80, mas são 3 horas de cadeira: com a sua hora a R$ 25, o custo de verdade é R$ 115 e sobram só R$ 5. Com 20% de lucro, o preço seria R$ 143,75.\n\nQuanto você cobra na progressiva? Comenta 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#salaodebeleza #progressiva #cabeleireira #precificacao #mei"
+ },
+ {
+  "id": "t16",
+  "dueAt": "2026-12-02T20:00:00-03:00",
+  "pilar": "dor",
+  "nicho": "confeitaria",
+  "formato": "gancho de dor + virada",
+  "narrado": false,
+  "music": "trilha2.m4a",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "bento cake",
+    "lines": [
+     "Multiplicou por 3?",
+     "_Perdeu R$ 12_."
+    ],
+    "dur": 2.8
+   },
+   {
+    "type": "text",
+    "lines": [
+     "Ingredientes: *R$ 12*.",
+     "Vezes 3 =",
+     "cobra _R$ 36_."
+    ],
+    "stagger": 12,
+    "dur": 3.4
+   },
+   {
+    "type": "rows",
+    "title": "1 bento cake",
+    "sub": "valores de exemplo",
+    "rows": [
+     {
+      "label": "Ingredientes",
+      "value": "R$ 12"
+     },
+     {
+      "label": "Caixinha e garfo",
+      "value": "R$ 4"
+     },
+     {
+      "label": "Gás e luz",
+      "value": "R$ 2"
+     },
+     {
+      "label": "2 horas × R$ 15",
+      "value": "R$ 30",
+      "tone": "y"
+     },
+     {
+      "label": "Custo de verdade",
+      "value": "R$ 48",
+      "total": true
+     }
+    ],
+    "step": 16,
+    "dur": 5
+   },
+   {
+    "type": "big",
+    "pre": "R$ 36 − R$ 48",
+    "value": 12,
+    "prefix": "− R$ ",
+    "tone": "bad",
+    "post": "em cada bento.\nE quanto mais vende, mais perde.",
+    "dur": 4,
+    "size": 200
+   },
+   {
+    "type": "rows",
+    "title": "O preço certo",
+    "rows": [
+     {
+      "label": "Custo de verdade",
+      "value": "R$ 48"
+     },
+     {
+      "label": "Com 25% de lucro",
+      "value": "R$ 64",
+      "tone": "good",
+      "total": true
+     }
+    ],
+    "step": 20,
+    "note": "48 ÷ 0,75 = 25% de lucro",
+    "dur": 4.4
+   },
+   {
+    "type": "cta",
+    "top": "Você usa a regra do *vezes 3*?",
+    "keyword": "Comenta SIM ou NÃO",
+    "bottom": "e segue pra mais contas de confeitaria",
+    "dur": 3.3
+   }
+  ],
+  "caption": "Multiplicou por 3? Perdeu R$ 12.\n\nNo bento cake, R$ 12 de ingredientes vezes 3 dá R$ 36. Mas com caixinha, gás e 2 horas do seu trabalho a R$ 15, o custo de verdade é R$ 48. Com 25% de lucro, o preço seria R$ 64.\n\nVocê usa a regra do vezes 3? Comenta SIM ou NÃO 👇\n\nSegue o perfil pra mais contas de preço.\n\nValores de exemplo. Cada negócio tem sua conta.\n\n#confeitaria #bentocake #precificacao #confeitariacaseira #mei"
  }
 ]

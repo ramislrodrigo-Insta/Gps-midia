@@ -108,3 +108,4 @@ TikTok bloqueia leitura direta de vídeos; não inventar números de outros perf
 - t08 agenda cheia, conta vazia · t09 quanto vale sua hora · t10 Erro nº2 copiar o vizinho
 - t11 bolo de pote a R$ 8 (confeitaria, educativo) · t12 40 panetones, sobrou quanto? (confeitaria, dor, Natal)
 - t13 quantos cortes pra tirar R$ 3.000 (barbearia, educativo) · t14 cento de brigadeiro a R$ 100, sobrou R$ 0 (confeitaria, dor)
+- t15 progressiva a R$ 120, sobra R$ 5 (salão, educativo) · t16 multiplicou por 3? perdeu R$ 12, bento cake (confeitaria, dor) — ambos sem narração (ELEVEN_API_KEY ausente na rotina de 27/11)
